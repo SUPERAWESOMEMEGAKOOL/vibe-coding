@@ -42,7 +42,23 @@ The topic map uses Math AA's five topic areas (first assessment 2021) and Physic
 
 For source-attributed past-paper imports, Math exam years must be 2021–2026 and Physics years 2025–2026. Older questions need individual compatibility review and adaptation rather than being treated as current-syllabus papers.
 
-The source library includes the user-requested **https://ibresources.cc/** and prefilled web searches. The third-party catalogue is a **link only**: access from this cloud instance was denied by the network proxy because the active allowlist contained `ibresources` without `.cc`. The exact `ibresources.cc` domain was added to the draft while preserving the existing entries. Review, save, and publish the environment settings to activate it before catalogue inspection and paper/mark-scheme matching can continue. Saving the draft alone does not change the running instance's access.
+The source library includes the user-requested **https://ibresources.cc/**. Its domain is now allowed, but the website responds with a Cloudflare managed challenge (HTTP 403). A normal Chromium session identified the remaining blocked verification host, **`challenges.cloudflare.com`**. That hostname has been added to the configuration draft, preserving all existing domains. Review, save, and publish the environment settings to activate it before retrying normal website access. This does not guarantee that Cloudflare will grant access. No challenge bypass or CAPTCHA-solving automation is used, and the site's catalogue and past papers remain unverified.
+
+### Verified documents available in the app
+
+The source library now includes three **official IB Math AA HL specimen-paper/mark-scheme pairs**, with an embedded original-PDF reader and separate question-paper and mark-scheme tabs. These are authentic IB specimens for the syllabus first examined in 2021, appropriate to the 2026 syllabus. They are **not papers from actual examination sittings**, and are not presented as imported, topic-tagged questions.
+
+The original document is served directly by [IB's public PDF](https://www.ibo.org/globalassets/new-structure/university-admission/pdfs/dp-mathematics-analysis-and-approaches-specimen-papers-en.pdf), not copied into this repository. PDF page numbers, starting from the document cover, are:
+
+| HL paper | Question paper | Matching mark scheme |
+| -------- | -------------- | -------------------- |
+| Paper 1  | 3–18           | 19–34                |
+| Paper 2  | 35–46          | 47–62                |
+| Paper 3  | 63–67          | 68–76                |
+
+The downloaded source was checked as a 121-page PDF, SHA-256 `442eb7c812471c7eeb66bb9e88005e035e15e92f7b84809048654f35fbede2f4`. The following sections are SL and are not used in these HL links. The reader starts at the selected section but retains the complete original document; users can open it in a new tab if their browser does not support embedded PDFs.
+
+No current-syllabus Physics paper/mark-scheme set or actual past examination sitting has yet been verified or added to this catalogue. The Physics view makes that limitation explicit and retains the existing local PDF upload and viewing tools.
 
 IB's official subject briefs were retrieved and checked for both subjects. The source library links directly to the [Math AA brief with first assessments in 2021](https://www.ibo.org/contentassets/5895a05412144fe890312bad52b17044/subject-brief-dp-math-analysis-and-approaches-en.pdf) and the [Physics brief with first assessment in 2025](https://www.ibo.org/globalassets/new-structure/recognition/pdfs/dp_sciences_physics_subject-brief_jan_2022_e.pdf). IB's separate Math AA brief for first assessment in **2029** is not the syllabus for the 2026 exam sessions. These briefs verify syllabus structure; they are not past-paper collections.
 

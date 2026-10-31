@@ -18,6 +18,7 @@ import type { Question, Subject } from '../types';
 import { subjects } from '../data/syllabus';
 import { deleteDocument, listDocuments, saveDocuments, type PaperDocument } from '../lib/documents';
 import Modal from './Modal';
+import PaperResources from './PaperResources';
 
 export default function Sources({
   subject,
@@ -114,9 +115,9 @@ export default function Sources({
         <div>
           <strong>Real papers, with their sources</strong>
           <p>
-            Use source-attributed past papers and their matching mark schemes for both subjects. The
-            ibresources.cc catalogue has not been accessed or indexed here yet. Original demo
-            questions are hidden by default.
+            Open verified IB documents below, or use your uploaded paper and mark-scheme PDFs. The
+            ibresources.cc catalogue is behind a browser verification step and has not been indexed.
+            Original demo questions are hidden by default.
           </p>
         </div>
       </div>
@@ -134,9 +135,9 @@ export default function Sources({
           <span className="resource-label">YOUR REQUESTED PAPER SOURCE · LINK ONLY</span>
           <h3>ibresources.cc</h3>
           <p>
-            Find real question papers and matching mark schemes for Math AA HL and Physics HL. This
-            link opens the site; its files and availability have not been verified from this
-            environment.
+            The requested source for Math AA HL and Physics HL papers. The website currently
+            requires Cloudflare browser verification from this environment, so its files have not
+            been verified or imported. You can open the site in your own browser.
           </p>
           <div className="source-syllabus-tags">
             <span>Math AA HL · 2021–2026</span>
@@ -190,6 +191,7 @@ export default function Sources({
           </span>
         </a>
       </div>
+      <PaperResources subject={subject} />
       <div className="web-search-card">
         <div className="web-search-heading">
           <Search size={20} />
