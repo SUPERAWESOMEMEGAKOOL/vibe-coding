@@ -8,6 +8,57 @@
   --warm-border: #e5d8c5;
 }
 
+.ibresources-card {
+  grid-column: 1 / -1;
+  background: #f5ecde;
+  border-color: #dfcbae;
+}
+.source-syllabus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.source-syllabus-tags > span {
+  font-size: 10px;
+  color: #8b6b4e;
+  border: 1px solid #ddc9ad;
+  background: #fbf6ed;
+  padding: 6px 9px;
+  border-radius: 5px;
+}
+.demo-toggle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  background: #f5ecde;
+  border: 1px solid #e3d0b6;
+  border-radius: 7px;
+  padding: 13px;
+  margin-bottom: 18px;
+}
+.demo-toggle > input {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 2px 0 0;
+  flex-shrink: 0;
+  accent-color: #92704d;
+}
+.demo-toggle strong {
+  font-size: 11px;
+  font-weight: 500;
+  color: #8c6946;
+}
+.demo-toggle small {
+  display: block;
+  font-size: 10px;
+  color: #a18463;
+  margin-top: 5px;
+  line-height: 1.8;
+}
+
 /* Parchment, soft edges, and a little breathing room. */
 .sidebar {
   overflow-y: auto;

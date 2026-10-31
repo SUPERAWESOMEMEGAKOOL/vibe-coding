@@ -68,6 +68,7 @@ export interface PracticePaper {
 
 export interface AppState {
   subject: Subject;
+  showDemoQuestions: boolean;
   bookmarks: string[];
   attempts: Record<string, Attempt>;
   history: PracticeEvent[];

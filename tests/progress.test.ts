@@ -88,6 +88,13 @@ describe('Persistent progress and migration', () => {
       },
     });
   }
+  it('keeps demo questions hidden by default, including for older workspaces', () => {
+    expect(initialState.showDemoQuestions).toBe(false);
+    store({ subject: 'physics', bookmarks: [physics.id] });
+    expect(loadState().showDemoQuestions).toBe(false);
+    store({ subject: 'math', showDemoQuestions: true });
+    expect(loadState().showDemoQuestions).toBe(true);
+  });
   it('migrates the previous latest results once, without fabricated dates', () => {
     const { history: _history, reviewNotes: _notes, ...old } = fresh();
     store({

@@ -150,8 +150,8 @@ export default function App() {
   const subject = state.subject;
   const subjectInfo = subjects[subject];
   const allQuestions = useMemo(
-    () => [...state.customQuestions, ...starterQuestions],
-    [state.customQuestions],
+    () => [...state.customQuestions, ...(state.showDemoQuestions ? starterQuestions : [])],
+    [state.customQuestions, state.showDemoQuestions],
   );
   const subjectQuestions = useMemo(
     () => allQuestions.filter((q) => q.subject === subject),
@@ -334,6 +334,8 @@ export default function App() {
     (v) => v !== 'all',
   ).length;
   const anyFilters = activeFilterCount > 0 || !!query;
+  const emptyPaperBank =
+    view === 'bank' && subjectQuestions.length === 0 && !state.showDemoQuestions;
   const topicCounts = topics[subject].map((t) => ({
     ...t,
     count: subjectQuestions.filter((q) => q.topicId === t.id).length,
@@ -815,30 +817,37 @@ export default function App() {
                           )}
                         </span>
                         <h3>
-                          {view === 'saved' && !bookmarks.length
-                            ? 'Keep the good questions close'
-                            : 'A fresh search might help'}
+                          {emptyPaperBank
+                            ? 'Your real-paper bank starts here'
+                            : view === 'saved' && !bookmarks.length
+                              ? 'Keep the good questions close'
+                              : 'A fresh search might help'}
                         </h3>
                         <p>
-                          {view === 'saved' && !bookmarks.length
-                            ? 'Tap the bookmark on a question to save it for your next session.'
-                            : source === 'past-paper'
-                              ? 'No past-paper questions have been added for these filters. Add your own questions or explore the original practice bank.'
-                              : 'No questions match these filters. Try another topic or broaden your search.'}
+                          {emptyPaperBank
+                            ? `No real ${subjectInfo.short} questions have been imported yet. Open the source library for ibresources.cc, then add source-attributed questions with their matching mark schemes. Original demo questions are hidden.`
+                            : view === 'saved' && !bookmarks.length
+                              ? 'Tap the bookmark on a question to save it for your next session.'
+                              : source === 'past-paper'
+                                ? 'No past-paper questions have been added for these filters. Add source-attributed questions or clear the filters.'
+                                : 'No questions match these filters. Try another topic or broaden your search.'}
                         </p>
                         <button
                           className="button primary"
                           onClick={() => {
-                            if (view === 'saved' && !bookmarks.length) navigate('bank');
+                            if (emptyPaperBank) navigate('sources');
+                            else if (view === 'saved' && !bookmarks.length) navigate('bank');
                             else resetFilters();
                           }}
                         >
-                          {view === 'saved' && !bookmarks.length
-                            ? 'Explore the question bank'
-                            : 'Clear filters'}
+                          {emptyPaperBank
+                            ? 'Open paper sources'
+                            : view === 'saved' && !bookmarks.length
+                              ? 'Explore the question bank'
+                              : 'Clear filters'}
                           <ArrowRight size={15} />
                         </button>
-                        {source === 'past-paper' && (
+                        {(source === 'past-paper' || emptyPaperBank) && (
                           <button className="text-button" onClick={() => setImportOpen(true)}>
                             <Plus size={14} />
                             Add past-paper questions
@@ -1374,9 +1383,23 @@ export default function App() {
                 </span>
               </div>
               <p className="help-source-note">
-                The starter bank contains 30 original practice questions, not official IB past
-                papers. Import your own source-attributed questions to expand it.
+                Original demo questions are hidden by default. Real past-paper questions must be
+                imported with their source and matching mark scheme. Math AA HL uses the syllabus
+                first assessed in 2021; current Physics HL uses the syllabus first assessed in 2025.
               </p>
+              <label className="demo-toggle">
+                <input
+                  type="checkbox"
+                  checked={state.showDemoQuestions}
+                  onChange={(e) => setState((s) => ({ ...s, showDemoQuestions: e.target.checked }))}
+                />
+                <span>
+                  <strong>Show original demo questions</strong>
+                  <small>
+                    Optional examples for trying the app. These are not IB past-paper questions.
+                  </small>
+                </span>
+              </label>
               <button
                 className="button secondary"
                 onClick={() =>

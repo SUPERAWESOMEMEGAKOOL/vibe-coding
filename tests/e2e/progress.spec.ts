@@ -1,5 +1,12 @@
 import { expect, test } from '@playwright/test';
 
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => {
+    if (!localStorage.getItem('folio.workspace.v1'))
+      localStorage.setItem('folio.workspace.v1', JSON.stringify({ showDemoQuestions: true }));
+  });
+});
+
 test('the notebook groups and filters multiple topics and sorts by most missed', async ({
   page,
 }) => {

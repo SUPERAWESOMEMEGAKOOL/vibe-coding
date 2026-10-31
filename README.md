@@ -36,13 +36,15 @@ Browser tests use `/usr/bin/chromium` in this cloud environment. Set the `execut
 
 ## Question sources and syllabus scope
 
-The starter bank contains **30 original practice questions**, 15 per subject. They are **not official IB past-paper questions**. Each is labelled as original, with an indicative rather than official mark scheme. No official past-paper collection has been downloaded or indexed.
+The app now defaults to **real-paper mode**. The 30 original demo questions are **hidden by default** and are not official IB past-paper questions. They can be enabled explicitly from the workspace help dialog with **Show original demo questions**, for trying the app's features. Disabling them preserves saved papers and progress. No real past-paper collection has been downloaded or indexed yet; the bank is empty until source-attributed questions are imported.
 
 The topic map uses Math AA's five topic areas (first assessment 2021) and Physics themes A–E (first assessment 2025). Math questions are structured; Physics includes Paper 1A-style MCQs and Paper 2-style structured questions. The guide lists selected subtopics, not every syllabus statement. Confirm full assessment and syllabus requirements against IB's current course documents.
 
 For source-attributed past-paper imports, Math exam years must be 2021–2026 and Physics years 2025–2026. Older questions need individual compatibility review and adaptation rather than being treated as current-syllabus papers.
 
-The source library links to IB's sample-paper and curriculum pages and provides prefilled web searches. **These external pages were not retrievable in the current cloud instance**, whose network policy blocked IB and Google. Links are external resource entry points, not verified or indexed papers. Domain additions for `ibo.org`, `www.ibo.org`, and `www.google.com` were saved in the environment configuration draft; they require review, saving, and publication in environment settings. Saving the draft does not activate access in the running machine.
+The source library includes the user-requested **https://ibresources.cc/** and prefilled web searches. The third-party catalogue is a **link only**: access from this cloud instance was denied by the network proxy because the active allowlist contained `ibresources` without `.cc`. The exact `ibresources.cc` domain was added to the draft while preserving the existing entries. Review, save, and publish the environment settings to activate it before catalogue inspection and paper/mark-scheme matching can continue. Saving the draft alone does not change the running instance's access.
+
+IB's official subject briefs were retrieved and checked for both subjects. The source library links directly to the [Math AA brief with first assessments in 2021](https://www.ibo.org/contentassets/5895a05412144fe890312bad52b17044/subject-brief-dp-math-analysis-and-approaches-en.pdf) and the [Physics brief with first assessment in 2025](https://www.ibo.org/globalassets/new-structure/recognition/pdfs/dp_sciences_physics_subject-brief_jan_2022_e.pdf). IB's separate Math AA brief for first assessment in **2029** is not the syllabus for the 2026 exam sessions. These briefs verify syllabus structure; they are not past-paper collections.
 
 ## Adding actual past-paper questions
 

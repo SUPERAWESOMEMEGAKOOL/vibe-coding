@@ -112,15 +112,41 @@ export default function Sources({
       <div className="source-access-note">
         <Globe2 size={19} />
         <div>
-          <strong>Official resources, a click away</strong>
+          <strong>Real papers, with their sources</strong>
           <p>
-            These links open external IB pages. No official past-paper collection has been
-            downloaded or indexed here. Full examination papers may require school or licensed
-            access.
+            Use source-attributed past papers and their matching mark schemes for both subjects. The
+            ibresources.cc catalogue has not been accessed or indexed here yet. Original demo
+            questions are hidden by default.
           </p>
         </div>
       </div>
       <div className="resource-grid">
+        <a
+          className="resource-card ibresources-card"
+          href="https://ibresources.cc/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="resource-icon">
+            <FolderOpen size={23} />
+          </span>
+          <ExternalLink size={16} className="resource-arrow" />
+          <span className="resource-label">YOUR REQUESTED PAPER SOURCE · LINK ONLY</span>
+          <h3>ibresources.cc</h3>
+          <p>
+            Find real question papers and matching mark schemes for Math AA HL and Physics HL. This
+            link opens the site; its files and availability have not been verified from this
+            environment.
+          </p>
+          <div className="source-syllabus-tags">
+            <span>Math AA HL · 2021–2026</span>
+            <span>Physics HL · 2025–2026</span>
+          </div>
+          <span className="resource-link">
+            Open IB Resources
+            <ArrowUpRight size={15} />
+          </span>
+        </a>
         <a
           className="resource-card"
           href="https://www.ibo.org/programmes/diploma-programme/assessment-and-exams/sample-exam-papers/"
@@ -142,8 +168,8 @@ export default function Sources({
           className="resource-card"
           href={
             subject === 'math'
-              ? 'https://www.ibo.org/programmes/diploma-programme/curriculum/mathematics/mathematics-analysis-and-approaches/'
-              : 'https://www.ibo.org/programmes/diploma-programme/curriculum/sciences/physics/'
+              ? 'https://www.ibo.org/contentassets/5895a05412144fe890312bad52b17044/subject-brief-dp-math-analysis-and-approaches-en.pdf'
+              : 'https://www.ibo.org/globalassets/new-structure/recognition/pdfs/dp_sciences_physics_subject-brief_jan_2022_e.pdf'
           }
           target="_blank"
           rel="noopener noreferrer"
@@ -152,11 +178,15 @@ export default function Sources({
             <FileText size={23} />
           </span>
           <ExternalLink size={16} className="resource-arrow" />
-          <span className="resource-label">CURRICULUM REFERENCE</span>
+          <span className="resource-label">VERIFIED IB SUBJECT BRIEF · FOR 2026 EXAMS</span>
           <h3>{subjects[subject].short} syllabus</h3>
-          <p>Check the course overview and assessment information for your subject.</p>
+          <p>
+            {subject === 'math'
+              ? 'First assessments for SL and HL: 2021. The newer syllabus first assessed in 2029 does not apply to your 2026 exams.'
+              : 'First assessment: 2025. Use the current A–E themes and Paper 1A, Paper 1B, and Paper 2 format.'}
+          </p>
           <span className="resource-link">
-            View course information <ArrowUpRight size={15} />
+            Open the current syllabus brief <ArrowUpRight size={15} />
           </span>
         </a>
       </div>

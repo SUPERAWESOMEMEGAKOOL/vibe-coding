@@ -1,6 +1,14 @@
 import { expect, test } from '@playwright/test';
 import { starterQuestions } from '../../src/data/questions';
 
+// Exercise the study tools with explicitly opted-in demo fixtures, not a fake past-paper bank.
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => {
+    if (!localStorage.getItem('folio.workspace.v1'))
+      localStorage.setItem('folio.workspace.v1', JSON.stringify({ showDemoQuestions: true }));
+  });
+});
+
 test('topic filters, search, bookmarks, and persistence', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));

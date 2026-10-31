@@ -12,6 +12,7 @@ import { mistakeReasons } from './progress';
 export const STORAGE_KEY = 'folio.workspace.v1';
 export const initialState: AppState = {
   subject: 'math',
+  showDemoQuestions: false,
   bookmarks: [],
   attempts: {},
   history: [],
@@ -141,6 +142,7 @@ export function loadState(): AppState {
     }
     return {
       subject: value.subject === 'physics' ? 'physics' : 'math',
+      showDemoQuestions: value.showDemoQuestions === true,
       bookmarks: ids(value.bookmarks),
       selected: ids(value.selected),
       customQuestions,
