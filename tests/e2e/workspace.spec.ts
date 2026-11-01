@@ -1,12 +1,18 @@
 import { expect, test } from '@playwright/test';
-import { starterQuestions } from '../../src/data/questions';
+import { starterQuestions } from '../fixtures/studyQuestions';
 
-// Exercise the study tools with explicitly opted-in demo fixtures, not a fake past-paper bank.
+// Inject Math fixtures only into this test's local workspace; production has no demo bank.
 test.beforeEach(async ({ page }) => {
-  await page.addInitScript(() => {
-    if (!localStorage.getItem('folio.workspace.v1'))
-      localStorage.setItem('folio.workspace.v1', JSON.stringify({ showDemoQuestions: true }));
-  });
+  await page.addInitScript(
+    (questions) => {
+      if (!localStorage.getItem('folio.workspace.v1'))
+        localStorage.setItem(
+          'folio.workspace.v1',
+          JSON.stringify({ subject: 'math', customQuestions: questions }),
+        );
+    },
+    starterQuestions.filter((q) => q.subject === 'math'),
+  );
 });
 
 test('topic filters, search, bookmarks, and persistence', async ({ page }) => {
@@ -41,7 +47,9 @@ test('Physics MCQs give correct and incorrect feedback and remember answers', as
   await expect(card.locator('.answer-feedback')).toContainText('That’s right');
   await card.locator('summary').click();
   await expect(card.locator('.solution-content')).toBeVisible();
-  await expect(card.locator('.solution-content')).toContainText('Displacement is the signed area');
+  await expect(card.locator('.solution-content')).toContainText(
+    'Instantaneous velocity is the rate',
+  );
   await page.reload();
   await expect(page.getByLabel('YOUR SUBJECT', { exact: true })).toHaveValue('physics');
   await expect(page.locator('.answer-feedback').first()).toContainText('That’s right');
@@ -121,6 +129,7 @@ test('imports attributed past-paper questions, validates years, and prevents dup
   await expect(page.getByRole('status')).toContainText('1 question added · 1 duplicates skipped');
   await page.getByRole('button', { name: 'More', exact: false }).click();
   await page.getByLabel('Filter by source').selectOption('past-paper');
+  await page.getByLabel('Search questions').fill(q.prompt);
   await expect(page.locator('.question-card')).toHaveCount(1);
   await expect(page.locator('.question-card')).toContainText('Test source');
   await page.reload();
@@ -180,7 +189,7 @@ test('mobile navigation, filters and dialogs fit a small screen', async ({ page 
   await page.getByRole('button', { name: 'Open navigation' }).click();
   await page.getByLabel('YOUR SUBJECT', { exact: true }).selectOption('physics');
   await page.getByLabel('Filter by topic').selectOption('pC');
-  await expect(page.locator('.question-card')).toHaveCount(3);
+  await expect(page.locator('.question-card')).toHaveCount(5);
   await page.getByRole('button', { name: 'Add questions', exact: true }).click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await page.keyboard.press('Escape');

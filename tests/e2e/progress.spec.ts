@@ -1,10 +1,17 @@
 import { expect, test } from '@playwright/test';
+import { starterQuestions } from '../fixtures/studyQuestions';
 
 test.beforeEach(async ({ page }) => {
-  await page.addInitScript(() => {
-    if (!localStorage.getItem('folio.workspace.v1'))
-      localStorage.setItem('folio.workspace.v1', JSON.stringify({ showDemoQuestions: true }));
-  });
+  await page.addInitScript(
+    (questions) => {
+      if (!localStorage.getItem('folio.workspace.v1'))
+        localStorage.setItem(
+          'folio.workspace.v1',
+          JSON.stringify({ subject: 'math', customQuestions: questions }),
+        );
+    },
+    starterQuestions.filter((q) => q.subject === 'math'),
+  );
 });
 
 test('the notebook groups and filters multiple topics and sorts by most missed', async ({
@@ -50,7 +57,7 @@ test('mistakes survive retries, group by topic, and produce feedback from reflec
   await expect(page.locator('.mistake-card')).toContainText('2 misses in 2 attempts');
   await page.locator('.reflection-details summary').click();
   await page.getByRole('combobox', { name: 'What happened?' }).selectOption('calculation');
-  await page.getByLabel('A note to your future self').fill('Use half the base times the height.');
+  await page.getByLabel('A note to your future self').fill('Use rate of change of position.');
   await page.getByRole('button', { name: 'Save reflection' }).click();
   await page.getByRole('navigation').getByRole('button', { name: 'Feedback', exact: true }).click();
   await expect(page.locator('.feedback-focus')).toContainText('motion');
@@ -80,7 +87,7 @@ test('mistakes survive retries, group by topic, and produce feedback from reflec
   await expect(page.locator('.mistake-card')).toContainText('2 misses in 3 attempts');
   await page.locator('.reflection-details summary').click();
   await expect(page.getByLabel('A note to your future self')).toHaveValue(
-    'Use half the base times the height.',
+    'Use rate of change of position.',
   );
   await page.getByLabel('YOUR SUBJECT', { exact: true }).selectOption('math');
   await expect(page.locator('.mistake-card')).toHaveCount(0);

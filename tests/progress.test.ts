@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { starterQuestions } from '../src/data/questions';
+import { starterQuestions } from './fixtures/studyQuestions';
 import { getProgress, getReasonCounts, recordAttempt } from '../src/lib/progress';
 import { initialState, loadState, STORAGE_KEY } from '../src/lib/storage';
 import type { AppState } from '../src/types';
@@ -88,12 +88,13 @@ describe('Persistent progress and migration', () => {
       },
     });
   }
-  it('keeps demo questions hidden by default, including for older workspaces', () => {
-    expect(initialState.showDemoQuestions).toBe(false);
+  it('defaults to uploaded Physics papers and discards the retired demo setting', () => {
+    expect(initialState.subject).toBe('physics');
     store({ subject: 'physics', bookmarks: [physics.id] });
-    expect(loadState().showDemoQuestions).toBe(false);
+    expect(loadState().bookmarks).toEqual([physics.id]);
     store({ subject: 'math', showDemoQuestions: true });
-    expect(loadState().showDemoQuestions).toBe(true);
+    expect(loadState().subject).toBe('math');
+    expect(loadState()).not.toHaveProperty('showDemoQuestions');
   });
   it('migrates the previous latest results once, without fabricated dates', () => {
     const { history: _history, reviewNotes: _notes, ...old } = fresh();

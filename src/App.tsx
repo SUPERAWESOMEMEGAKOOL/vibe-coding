@@ -35,7 +35,7 @@ import {
 } from 'lucide-react';
 import type { AppState, PracticePaper, Question, ReviewNote, Subject, View } from './types';
 import { subjects, topics, getTopic } from './data/syllabus';
-import { starterQuestions } from './data/questions';
+import { uploadedPhysicsQuestions } from './data/uploadedQuestions';
 import { downloadJson, filterQuestions, paperTotals } from './lib/questions';
 import { loadState, STORAGE_KEY } from './lib/storage';
 import { getProgress, recordAttempt } from './lib/progress';
@@ -132,6 +132,8 @@ export default function App() {
   const [questionType, setQuestionType] = useState('all');
   const [difficulty, setDifficulty] = useState('all');
   const [source, setSource] = useState('all');
+  const [paperFilter, setPaperFilter] = useState('all');
+  const [timeZone, setTimeZone] = useState('all');
   const [query, setQuery] = useState('');
   const [sort, setSort] = useState('recommended');
   const [page, setPage] = useState(1);
@@ -150,8 +152,8 @@ export default function App() {
   const subject = state.subject;
   const subjectInfo = subjects[subject];
   const allQuestions = useMemo(
-    () => [...state.customQuestions, ...(state.showDemoQuestions ? starterQuestions : [])],
-    [state.customQuestions, state.showDemoQuestions],
+    () => [...state.customQuestions, ...uploadedPhysicsQuestions],
+    [state.customQuestions],
   );
   const subjectQuestions = useMemo(
     () => allQuestions.filter((q) => q.subject === subject),
@@ -185,14 +187,43 @@ export default function App() {
   }, [toast]);
   useEffect(() => {
     setPage(1);
-  }, [topic, subtopic, questionType, difficulty, source, query, sort, view, subject]);
+  }, [
+    topic,
+    subtopic,
+    questionType,
+    difficulty,
+    source,
+    paperFilter,
+    timeZone,
+    query,
+    sort,
+    view,
+    subject,
+  ]);
   useEffect(() => {
     if (!printDocument) return;
     const oldTitle = document.title;
     document.title = `${printDocument.name} — ${printDocument.mode === 'questions' ? 'Questions' : 'Mark scheme'}`;
-    const timer = setTimeout(() => window.print(), 150);
+    let cancelled = false;
+    async function preparePrint() {
+      try {
+        await document.fonts.ready;
+        await Promise.all(
+          Array.from(document.querySelectorAll<HTMLImageElement>('#print-paper img')).map((image) =>
+            image.decode(),
+          ),
+        );
+        if (!cancelled) window.print();
+      } catch {
+        if (!cancelled) {
+          setToast('A paper image could not load. Please try printing again.');
+          setPrintDocument(null);
+        }
+      }
+    }
+    void preparePrint();
     return () => {
-      clearTimeout(timer);
+      cancelled = true;
       document.title = oldTitle;
     };
   }, [printDocument]);
@@ -215,6 +246,8 @@ export default function App() {
     setQuestionType('all');
     setDifficulty('all');
     setSource('all');
+    setPaperFilter('all');
+    setTimeZone('all');
     setQuery('');
   };
   function switchSubject(next: Subject) {
@@ -318,7 +351,18 @@ export default function App() {
     navigate('papers');
     notify('Your paper is saved. A little progress, made.');
   }
-  const filters = { subject, topic, subtopic, type: questionType, difficulty, source, query, sort };
+  const filters = {
+    subject,
+    topic,
+    subtopic,
+    type: questionType,
+    difficulty,
+    source,
+    paper: paperFilter,
+    timeZone,
+    query,
+    sort,
+  };
   const filtered = filterQuestions(
     view === 'saved'
       ? bookmarks
@@ -330,15 +374,22 @@ export default function App() {
   const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const currentPage = Math.min(page, pages);
   const visibleQuestions = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
-  const activeFilterCount = [topic, subtopic, questionType, difficulty, source].filter(
-    (v) => v !== 'all',
-  ).length;
+  const activeFilterCount = [
+    topic,
+    subtopic,
+    questionType,
+    difficulty,
+    source,
+    paperFilter,
+    timeZone,
+  ].filter((v) => v !== 'all').length;
   const anyFilters = activeFilterCount > 0 || !!query;
-  const emptyPaperBank =
-    view === 'bank' && subjectQuestions.length === 0 && !state.showDemoQuestions;
+  const emptyPaperBank = view === 'bank' && subjectQuestions.length === 0;
   const topicCounts = topics[subject].map((t) => ({
     ...t,
-    count: subjectQuestions.filter((q) => q.topicId === t.id).length,
+    count: subjectQuestions.filter(
+      (q) => q.topicId === t.id || q.additionalTopics?.some((other) => other.topicId === t.id),
+    ).length,
   }));
 
   return (
@@ -688,6 +739,7 @@ export default function App() {
                             <option>Foundation</option>
                             <option>Standard</option>
                             <option>Challenge</option>
+                            <option value="Unrated">Unrated (past papers)</option>
                           </select>
                           <ChevronDown size={13} />
                         </label>
@@ -703,6 +755,36 @@ export default function App() {
                       </div>
                       {moreFilters && (
                         <div className="advanced-filters">
+                          <label>
+                            Paper
+                            <select
+                              aria-label="Filter by paper"
+                              value={paperFilter}
+                              onChange={(e) => setPaperFilter(e.target.value)}
+                            >
+                              <option value="all">All papers</option>
+                              {(subject === 'physics'
+                                ? ['Paper 1A', 'Paper 1B', 'Paper 2']
+                                : ['Paper 1', 'Paper 2', 'Paper 3']
+                              ).map((p) => (
+                                <option key={p}>{p}</option>
+                              ))}
+                            </select>
+                          </label>
+                          {subject === 'physics' && (
+                            <label>
+                              Time zone
+                              <select
+                                aria-label="Filter by time zone"
+                                value={timeZone}
+                                onChange={(e) => setTimeZone(e.target.value)}
+                              >
+                                <option value="all">Both time zones</option>
+                                <option>TZ1</option>
+                                <option>TZ2</option>
+                              </select>
+                            </label>
+                          )}
                           <label>
                             Subtopic
                             <select
@@ -825,7 +907,7 @@ export default function App() {
                         </h3>
                         <p>
                           {emptyPaperBank
-                            ? `No real ${subjectInfo.short} questions have been imported yet. Open the source library for ibresources.cc, then add source-attributed questions with their matching mark schemes. Original demo questions are hidden.`
+                            ? `No ${subjectInfo.short} past papers have been uploaded yet. The source library includes official Math AA HL specimens. Your uploaded Physics HL papers are ready in the Physics question bank.`
                             : view === 'saved' && !bookmarks.length
                               ? 'Tap the bookmark on a question to save it for your next session.'
                               : source === 'past-paper'
@@ -851,6 +933,11 @@ export default function App() {
                           <button className="text-button" onClick={() => setImportOpen(true)}>
                             <Plus size={14} />
                             Add past-paper questions
+                          </button>
+                        )}
+                        {emptyPaperBank && subject === 'math' && (
+                          <button className="text-button" onClick={() => switchSubject('physics')}>
+                            Explore the Physics HL papers <ArrowRight size={14} />
                           </button>
                         )}
                       </div>
@@ -1247,8 +1334,14 @@ export default function App() {
                         <div>
                           <h3>{t.name}</h3>
                           <p>
-                            {subjectQuestions.filter((q) => q.topicId === t.id).length} questions in
-                            your bank
+                            {
+                              subjectQuestions.filter(
+                                (q) =>
+                                  q.topicId === t.id ||
+                                  q.additionalTopics?.some((other) => other.topicId === t.id),
+                              ).length
+                            }{' '}
+                            questions in your bank
                           </p>
                         </div>
                         <button
@@ -1383,23 +1476,11 @@ export default function App() {
                 </span>
               </div>
               <p className="help-source-note">
-                Original demo questions are hidden by default. Real past-paper questions must be
-                imported with their source and matching mark scheme. Math AA HL uses the syllabus
-                first assessed in 2021; current Physics HL uses the syllabus first assessed in 2025.
+                Your May 2025 Physics HL uploads provide 102 real questions: 80 multiple-choice and
+                22 structured questions, with matching official mark schemes from both time zones.
+                Math AA HL uses the syllabus first assessed in 2021; current Physics HL uses the
+                syllabus first assessed in 2025. Math past papers have not been uploaded yet.
               </p>
-              <label className="demo-toggle">
-                <input
-                  type="checkbox"
-                  checked={state.showDemoQuestions}
-                  onChange={(e) => setState((s) => ({ ...s, showDemoQuestions: e.target.checked }))}
-                />
-                <span>
-                  <strong>Show original demo questions</strong>
-                  <small>
-                    Optional examples for trying the app. These are not IB past-paper questions.
-                  </small>
-                </span>
-              </label>
               <button
                 className="button secondary"
                 onClick={() =>

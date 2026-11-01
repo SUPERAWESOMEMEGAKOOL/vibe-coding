@@ -12,6 +12,7 @@ import { paperDocumentUrl, paperResources, type PaperResource } from '../data/pa
 import { subjects } from '../data/syllabus';
 import type { Subject } from '../types';
 import Modal from './Modal';
+import { assetUrl } from '../lib/assets';
 
 type Mode = 'questions' | 'markScheme';
 
@@ -20,6 +21,7 @@ export default function PaperResources({ subject }: { subject: Subject }) {
   const resources = paperResources.filter((resource) => resource.subject === subject);
   const current = viewer?.resource;
   const pages = viewer && current ? current[viewer.mode] : null;
+  const uploaded = resources.some((r) => r.uploaded);
   return (
     <section className="verified-papers" aria-label="Verified paper documents">
       <div className="section-heading">
@@ -27,7 +29,11 @@ export default function PaperResources({ subject }: { subject: Subject }) {
           <h2>
             Verified IB documents <span>{resources.length} pairs</span>
           </h2>
-          <p>Original question papers with matching mark schemes, opened from IB’s website.</p>
+          <p>
+            {uploaded
+              ? 'Your uploaded May 2025 papers, paired by paper code and time zone.'
+              : 'Original IB specimen papers with matching mark schemes.'}
+          </p>
         </div>
       </div>
       {resources.length ? (
@@ -35,10 +41,21 @@ export default function PaperResources({ subject }: { subject: Subject }) {
           <div className="specimen-notice">
             <Info size={16} />
             <p>
-              These are <strong>official specimen papers</strong> for the syllabus used in 2026, not
-              papers from an actual examination session. Each preview opens the correct HL section
-              of IB’s original PDF. These full documents have not been split into topic-tagged
-              questions.
+              {uploaded ? (
+                <>
+                  <strong>Six real May 2025 Physics HL paper/mark-scheme pairs.</strong> All 102
+                  questions are available in the question bank: 80 interactive MCQs and 22
+                  structured questions, with original diagrams and official marking points. TZ
+                  labels follow your filenames.
+                </>
+              ) : (
+                <>
+                  These are <strong>official specimen papers</strong> for the syllabus used in 2026,
+                  not papers from an actual examination session. Each preview opens the correct HL
+                  section of IB’s original PDF. Math past-paper questions have not been supplied
+                  yet.
+                </>
+              )}
             </p>
           </div>
           <div className="verified-paper-grid">
@@ -48,14 +65,24 @@ export default function PaperResources({ subject }: { subject: Subject }) {
                   <span className="resource-icon">
                     <FileText size={22} />
                   </span>
-                  <span className="verified-paper-kind">OFFICIAL SPECIMEN</span>
+                  <span className="verified-paper-kind">
+                    {resource.uploaded ? 'UPLOADED PAST PAPER' : 'OFFICIAL SPECIMEN'}
+                  </span>
                 </div>
                 <span className="verified-paper-subject">{subjects[resource.subject].short}</span>
                 <h3>{resource.paper}</h3>
                 <p>
                   First examinations {resource.syllabusFirstAssessment}
                   <br />
-                  HL paper + matching mark scheme
+                  {resource.uploaded ? (
+                    <>
+                      {resource.examSession} · {resource.timeZone}
+                      <br />
+                      {resource.questionCount} questions · {resource.marks} marks
+                    </>
+                  ) : (
+                    'HL paper + matching mark scheme'
+                  )}
                 </p>
                 <div className="paper-pair-status">
                   <CheckCircle2 size={13} />
@@ -79,7 +106,7 @@ export default function PaperResources({ subject }: { subject: Subject }) {
                 </div>
                 <a
                   className="verified-publisher-link"
-                  href={resource.sourcePage}
+                  href={assetUrl(resource.sourcePage)}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,19 +121,22 @@ export default function PaperResources({ subject }: { subject: Subject }) {
         <div className="unverified-subject-notice">
           <FileText size={23} />
           <div>
-            <strong>No verified current-syllabus Physics papers added yet.</strong>
+            <strong>No paper documents added for this subject yet.</strong>
             <p>
-              Physics HL for the 2026 exams uses the syllabus first assessed in 2025. IB Resources
-              requires a browser verification step before its catalogue can be checked. Uploaded
-              question-paper and mark-scheme PDFs are available in your local library below.
+              Add question-paper and mark-scheme PDFs to your local library below, or import
+              source-attributed questions into the question bank.
             </p>
           </div>
         </div>
       )}
       {viewer && current && pages && (
         <Modal
-          title={`${subjects[current.subject].short} · ${current.paper}`}
-          subtitle={`Official IB ${current.kind === 'specimen' ? 'specimen' : 'past paper'} · ${current.syllabusFirstAssessment} syllabus · Higher level`}
+          title={`${subjects[current.subject].short} · ${current.paper}${current.timeZone ? ` · ${current.timeZone}` : ''}`}
+          subtitle={
+            current.uploaded
+              ? `${current.examSession} · ${current.examCode} · original uploaded PDFs`
+              : `Official IB specimen · ${current.syllabusFirstAssessment} syllabus · Higher level`
+          }
           wide
           onClose={() => setViewer(null)}
         >
@@ -135,7 +165,10 @@ export default function PaperResources({ subject }: { subject: Subject }) {
             </div>
             <div className="official-paper-meta">
               <span>
-                Original PDF: pages {pages.firstPage}–{pages.lastPage} of {current.pdfPages}
+                Original PDF: pages {pages.firstPage}–{pages.lastPage} of{' '}
+                {viewer.mode === 'markScheme'
+                  ? (current.markSchemePdfPages ?? current.pdfPages)
+                  : current.pdfPages}
               </span>
               <a
                 href={paperDocumentUrl(current, viewer.mode)}
@@ -158,13 +191,17 @@ export default function PaperResources({ subject }: { subject: Subject }) {
               />
             </div>
             <p className="official-paper-viewer-note">
-              The preview loads the original document from www.ibo.org and starts at the selected HL
-              section. The complete file also contains other papers and SL sections. If your browser
-              cannot display PDFs, use “Open in a new tab”.
+              {current.uploaded
+                ? 'The preview shows the original uploaded question paper or its matched mark scheme, with the original pagination and diagrams.'
+                : 'The preview loads IB’s original specimen document at the selected HL section. The complete file also contains other papers and SL sections.'}{' '}
+              If your browser cannot display PDFs, use “Open in a new tab”.
             </p>
             <p className="official-paper-attribution">
               © International Baccalaureate Organization. Document source and matching page ranges
-              checked {current.verifiedOn}. This is a specimen, not a past examination sitting.
+              checked {current.verifiedOn}.{' '}
+              {current.uploaded
+                ? 'May 2025 examination paper supplied by the user.'
+                : 'This is a specimen, not a past examination sitting.'}
             </p>
           </div>
         </Modal>

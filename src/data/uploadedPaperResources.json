@@ -1,0 +1,176 @@
+[
+  {
+    "id": "physics-2025-may-tz1-1a",
+    "subject": "physics",
+    "paper": "Paper 1A",
+    "kind": "past-paper",
+    "syllabusFirstAssessment": 2025,
+    "publisher": "IB · supplied PDFs",
+    "sourcePage": "papers/physics/2025-may/tz1/paper-1a.pdf",
+    "pdfUrl": "papers/physics/2025-may/tz1/paper-1a.pdf",
+    "pdfPages": 23,
+    "markSchemePdfUrl": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+    "markSchemePdfPages": 3,
+    "questions": {
+      "firstPage": 2,
+      "lastPage": 23
+    },
+    "markScheme": {
+      "firstPage": 1,
+      "lastPage": 3
+    },
+    "verifiedOn": "2026-11-01",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "uploaded": true,
+    "questionCount": 40,
+    "marks": 40,
+    "examCode": "2225-6707"
+  },
+  {
+    "id": "physics-2025-may-tz1-1b",
+    "subject": "physics",
+    "paper": "Paper 1B",
+    "kind": "past-paper",
+    "syllabusFirstAssessment": 2025,
+    "publisher": "IB · supplied PDFs",
+    "sourcePage": "papers/physics/2025-may/tz1/paper-1b.pdf",
+    "pdfUrl": "papers/physics/2025-may/tz1/paper-1b.pdf",
+    "pdfPages": 13,
+    "markSchemePdfUrl": "papers/physics/2025-may/tz1/paper-1b-markscheme.pdf",
+    "markSchemePdfPages": 6,
+    "questions": {
+      "firstPage": 2,
+      "lastPage": 13
+    },
+    "markScheme": {
+      "firstPage": 1,
+      "lastPage": 6
+    },
+    "verifiedOn": "2026-11-01",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "uploaded": true,
+    "questionCount": 3,
+    "marks": 20,
+    "examCode": "2225-6708"
+  },
+  {
+    "id": "physics-2025-may-tz1-2",
+    "subject": "physics",
+    "paper": "Paper 2",
+    "kind": "past-paper",
+    "syllabusFirstAssessment": 2025,
+    "publisher": "IB · supplied PDFs",
+    "sourcePage": "papers/physics/2025-may/tz1/paper-2.pdf",
+    "pdfUrl": "papers/physics/2025-may/tz1/paper-2.pdf",
+    "pdfPages": 25,
+    "markSchemePdfUrl": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+    "markSchemePdfPages": 23,
+    "questions": {
+      "firstPage": 2,
+      "lastPage": 25
+    },
+    "markScheme": {
+      "firstPage": 1,
+      "lastPage": 23
+    },
+    "verifiedOn": "2026-11-01",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "uploaded": true,
+    "questionCount": 9,
+    "marks": 90,
+    "examCode": "2225-6709"
+  },
+  {
+    "id": "physics-2025-may-tz2-1a",
+    "subject": "physics",
+    "paper": "Paper 1A",
+    "kind": "past-paper",
+    "syllabusFirstAssessment": 2025,
+    "publisher": "IB · supplied PDFs",
+    "sourcePage": "papers/physics/2025-may/tz2/paper-1a.pdf",
+    "pdfUrl": "papers/physics/2025-may/tz2/paper-1a.pdf",
+    "pdfPages": 22,
+    "markSchemePdfUrl": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+    "markSchemePdfPages": 3,
+    "questions": {
+      "firstPage": 2,
+      "lastPage": 22
+    },
+    "markScheme": {
+      "firstPage": 1,
+      "lastPage": 3
+    },
+    "verifiedOn": "2026-11-01",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "uploaded": true,
+    "questionCount": 40,
+    "marks": 40,
+    "examCode": "2225-6713"
+  },
+  {
+    "id": "physics-2025-may-tz2-1b",
+    "subject": "physics",
+    "paper": "Paper 1B",
+    "kind": "past-paper",
+    "syllabusFirstAssessment": 2025,
+    "publisher": "IB · supplied PDFs",
+    "sourcePage": "papers/physics/2025-may/tz2/paper-1b.pdf",
+    "pdfUrl": "papers/physics/2025-may/tz2/paper-1b.pdf",
+    "pdfPages": 9,
+    "markSchemePdfUrl": "papers/physics/2025-may/tz2/paper-1b-markscheme.pdf",
+    "markSchemePdfPages": 7,
+    "questions": {
+      "firstPage": 2,
+      "lastPage": 9
+    },
+    "markScheme": {
+      "firstPage": 1,
+      "lastPage": 7
+    },
+    "verifiedOn": "2026-11-01",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "uploaded": true,
+    "questionCount": 2,
+    "marks": 20,
+    "examCode": "2225-6714"
+  },
+  {
+    "id": "physics-2025-may-tz2-2",
+    "subject": "physics",
+    "paper": "Paper 2",
+    "kind": "past-paper",
+    "syllabusFirstAssessment": 2025,
+    "publisher": "IB · supplied PDFs",
+    "sourcePage": "papers/physics/2025-may/tz2/paper-2.pdf",
+    "pdfUrl": "papers/physics/2025-may/tz2/paper-2.pdf",
+    "pdfPages": 25,
+    "markSchemePdfUrl": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+    "markSchemePdfPages": 19,
+    "questions": {
+      "firstPage": 2,
+      "lastPage": 25
+    },
+    "markScheme": {
+      "firstPage": 1,
+      "lastPage": 19
+    },
+    "verifiedOn": "2026-11-01",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "uploaded": true,
+    "questionCount": 8,
+    "marks": 90,
+    "examCode": "2225-6715"
+  }
+]

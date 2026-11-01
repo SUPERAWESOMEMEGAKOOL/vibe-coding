@@ -2,7 +2,7 @@ import { useRef, useState, type FormEvent } from 'react';
 import { Download, FileJson2, FilePlus2, Plus, Trash2, Upload, Info } from 'lucide-react';
 import type { Question, Subject } from '../types';
 import { subjects, topics } from '../data/syllabus';
-import { starterQuestions } from '../data/questions';
+import { uploadedPhysicsQuestions } from '../data/uploadedQuestions';
 import { downloadJson, parseQuestionImport, validateQuestion } from '../lib/questions';
 import Modal from './Modal';
 
@@ -401,8 +401,7 @@ export default function ImportModal({
                 downloadJson(
                   {
                     version: 1,
-                    questions: starterQuestions
-                      .filter((q) => q.subject === subject)
+                    questions: uploadedPhysicsQuestions
                       .slice(0, 1)
                       .map(({ id: _id, figure: _figure, ...q }) => q),
                   },
@@ -411,7 +410,7 @@ export default function ImportModal({
               }
             >
               <Download size={15} />
-              Download an example template
+              Download a real Physics question example
             </button>
             <label>
               Question bank JSON

@@ -1,0 +1,542 @@
+{
+  "1A-TZ1": [
+    [
+      "A1",
+      "Instantaneous velocity",
+      "Instantaneous velocity is the rate of change of position at an instant: v = dx/dt. Displacement divided by a finite time interval gives average velocity; distance-based expressions describe speed."
+    ],
+    [
+      "A1",
+      "Acceleration–time graph and final speed",
+      "The change in velocity is the signed area under the acceleration–time graph. The object starts from rest, so summing the areas up to 8.0 s gives its final speed, 32 m s⁻¹."
+    ],
+    [
+      "A2",
+      "Resolving the force on an accelerating cube",
+      "Resolve the applied force along the vertical. Its upward component is F cos θ and the weight is mg downward. Newton’s second law gives a = (F cos θ − mg)/m. The frictionless surface supplies a horizontal normal reaction."
+    ],
+    [
+      "A2",
+      "Buoyancy and displaced volume",
+      "For a fully submerged object, buoyancy is the weight of displaced water: F = ρ_water gV. Halving the radius reduces the volume by a factor of eight. The sphere’s own density does not change this displaced volume, so F₁/F₂ = 8."
+    ],
+    [
+      "A2",
+      "Angular velocity of an orbiting satellite",
+      "One orbit is 2π radians and 24 h is 86400 s. Thus ω = 2π/T = 2π/86400 ≈ 7.3 × 10⁻⁵ rad s⁻¹."
+    ],
+    [
+      "A2",
+      "Impulse and final kinetic energy",
+      "Impulse equals the change in momentum. Starting from rest, p = 2.0 kg m s⁻¹. Then E_k = p²/(2m) = 2.0²/(2 × 5.0) = 0.40 J.",
+      ["A3"]
+    ],
+    [
+      "A4",
+      "Angular acceleration and angular momentum",
+      "Four rotations give an angular displacement of 8π radians. Using ω² = 2αθ from rest gives ω = 4√(πα). Since L = Iω, the change in angular momentum is 4I√(πα)."
+    ],
+    [
+      "A4",
+      "Moment of inertia of two spheres",
+      "Each 10 kg sphere is 4.0 m from the axis. Treating them as small particles, I = Σmr² = 2 × 10 × 4.0² = 320 kg m². The connecting rod has negligible mass."
+    ],
+    [
+      "A5",
+      "Relativistic addition of velocities",
+      "Use relativistic velocity addition rather than adding speeds directly. With the spacecraft moving at +0.50c in X and −0.50c in Y, the relative speed of the observers is (0.50c + 0.50c)/(1 + 0.50 × 0.50) = 0.80c."
+    ],
+    [
+      "B1",
+      "Melting ice with warm water",
+      "The water cools to 0 °C and releases mcT. This energy melts ice at its melting point, requiring m_melt L. Equating the energies gives m_melt = mcT/L."
+    ],
+    [
+      "B2",
+      "Cause of the enhanced greenhouse effect",
+      "Burning fossil fuels increases atmospheric greenhouse gases, especially carbon dioxide. These gases absorb outgoing infrared radiation and alter Earth’s energy balance. The supplied mark scheme selects burning fossil fuels."
+    ],
+    [
+      "B4",
+      "Rapid compression of an ideal gas",
+      "Rapid compression leaves little time for heat transfer. The moving piston does work on the gas; collisions with it increase molecular kinetic energy and therefore the molecules’ average speed. Compression itself is not thermal energy transfer.",
+      ["B3"]
+    ],
+    [
+      "B4",
+      "Recognising a Carnot cycle",
+      "A Carnot cycle consists of two reversible isothermal processes joined by two reversible adiabatic processes. On a P–V diagram the adiabats are steeper than the isotherms. Identify the diagram with this pair of each type; the official key selects C."
+    ],
+    [
+      "B5",
+      "Equivalent resistance in three circuits",
+      "Reduce each network using the series and parallel rules. The combinations give their smallest equivalent resistance for Q, then R, then P. This is the ordering Q, R, P in the supplied key."
+    ],
+    [
+      "B5",
+      "Current produced by a charged moving belt",
+      "In one second the belt carries an area wv past the contact. Current is charge per second, I = σwv = (5.0 × 10⁻³)(0.60)(2.5) = 7.5 × 10⁻³ A = 7.5 mA."
+    ],
+    [
+      "B5",
+      "Resistance after reshaping a conductor",
+      "The material and volume stay constant. Increasing the length by a factor of four reduces the cross-sectional area by four. From R = ρL/A, resistance increases by 4 × 4 = 16, from 50 Ω to 800 Ω."
+    ],
+    [
+      "C1",
+      "Two springs connected in parallel",
+      "Identical springs in parallel have an effective spring constant 2k. Since T = 2π√(m/k), keeping the same mass gives T₂/T₁ = 1/√2."
+    ],
+    [
+      "C2",
+      "Reading period and amplitude from a wave graph",
+      "The amplitude is the largest displacement from equilibrium, 5.0 nm, not the peak-to-peak displacement. The period is 4.0 ms, so f = 1/T = 250 Hz."
+    ],
+    [
+      "C1",
+      "Speed at a specified displacement in SHM",
+      "The distance between the turning points is b, so A = b/2. Halfway from equilibrium to a turning point, x = A/2. Use v = ω√(A² − x²) with ω = 2πf to obtain v = (√3/2)πfb."
+    ],
+    [
+      "C3",
+      "Refraction through parallel layers",
+      "Measure angles from the normal. The 50° angle to the surface corresponds to 40° to the normal. Snell’s law gives (5/3)sin 40° = (4/3)sin θ, so θ ≈ 53°."
+    ],
+    [
+      "C3",
+      "Double-slit fringes and the diffraction envelope",
+      "At small angles, the interference-fringe spacing is approximately λ/d and the first diffraction minimum is at λ/b. Reading these two angular scales separately from the graph gives λ/d = 0.01 and λ/b = 0.1."
+    ],
+    [
+      "C4",
+      "Fifth harmonic in a pipe closed at one end",
+      "For a pipe closed at one end, the allowed harmonics are odd and L = nλ/4. At the fifth harmonic, λ = 4L/5."
+    ],
+    [
+      "C3",
+      "Number of maxima from a diffraction grating",
+      "The slit separation is d = 1/(400000) = 2.5 × 10⁻⁶ m. With d sin θ = nλ and sin θ ≤ 1, the maximum order is 4. Count four maxima on each side plus the central maximum: 9."
+    ],
+    [
+      "D1",
+      "Comparing gravitational fields at planetary surfaces",
+      "Surface gravity is proportional to M/R². The smaller planet has mass M_E/18 and radius R_E/3, so g_P/g_E = (1/18)/(1/9) = 1/2."
+    ],
+    [
+      "D1",
+      "Gravitational potential above Earth’s surface",
+      "Outside Earth, V = −GM/(R + d), taking zero potential at infinity. At d = 0 the potential is finite and negative; as d increases it approaches zero from below with a decreasing positive gradient. This corresponds to A."
+    ],
+    [
+      "D2",
+      "Fundamental units of μ₀ε₀",
+      "The electromagnetic wave relation is c² = 1/(μ₀ε₀). Therefore μ₀ε₀ has units 1/c² = s² m⁻², expressed in fundamental SI units."
+    ],
+    [
+      "D2",
+      "Electric field from a potential gradient",
+      "The magnitude of a uniform electric field is the potential change divided by separation. Convert 20 kV to 20000 V and 5.0 cm to 0.050 m: E = 20000/0.050 = 4.0 × 10⁵ N C⁻¹."
+    ],
+    [
+      "D3",
+      "Magnetic field from the force on a current-carrying wire",
+      "For a perpendicular wire, F = BIL. Use the changes: B = ΔF/(LΔI) = (4.0 × 10⁻³)/(0.32 × 5.0) = 2.5 × 10⁻³ T = 2.5 mT."
+    ],
+    [
+      "D3",
+      "Magnetic forces on a current loop",
+      "Conventional current is opposite to the motion of negative charge carriers. Applying F = IL × B around the loop gives radial outward forces, so the loop’s diameter tends to increase. There is no net torque rotating it in its own plane."
+    ],
+    [
+      "E1",
+      "Evidence that electric charge is quantised",
+      "Millikan’s oil-drop experiment measured charges that were integer multiples of a common smallest charge. This established experimental evidence for quantisation of electric charge."
+    ],
+    [
+      "D4",
+      "Changing the speed of an AC generator",
+      "For a rotating coil, the peak emf is proportional to angular speed and the period is inversely proportional to it. Reducing the speed to 3/4 of the original reduces 10 V to 7.5 V and multiplies the original period by 4/3, giving about 1.1 ms."
+    ],
+    [
+      "E1",
+      "Nuclear notation for an ion",
+      "The atomic number is the number of protons, 53. The mass number is protons plus neutrons, 53 + 89 = 142. Changing the number of electrons changes the ionic charge but not the nuclear notation."
+    ],
+    [
+      "E1",
+      "Nuclear density and nucleon number",
+      "Nuclear mass is approximately proportional to nucleon number A, while nuclear radius is proportional to A^(1/3). Volume is therefore proportional to A as well, giving an approximately constant nuclear density."
+    ],
+    [
+      "E2",
+      "Maximum speed of a photoelectron",
+      "The photoelectric equation gives maximum kinetic energy E − Φ. Set ½m_e v_max² = E − Φ and solve: v_max = √[2(E − Φ)/m_e]."
+    ],
+    [
+      "E2",
+      "Changes to a photon in Compton scattering",
+      "In Compton scattering the photon transfers energy to the electron, so its wavelength increases and λ/λ₀ > 1. Every photon in vacuum obeys λf = c, before and after scattering. Therefore (λf)/(λ₀f₀) = 1, giving option A."
+    ],
+    [
+      "E3",
+      "Deflection of radioactive emissions",
+      "Alpha and beta particles carry electric charge, so both electric and magnetic fields can deflect them. Gamma photons are uncharged, so they are not deflected by these fields."
+    ],
+    [
+      "E3",
+      "Decay sequence that produces an isotope",
+      "An isotope must retain the same proton number. One alpha decay lowers the proton number by 2 and mass number by 4; two beta-minus decays raise the proton number by 2 in total. The final proton number is restored but the mass number differs."
+    ],
+    [
+      "E4",
+      "Choosing a nuclear reactor moderator",
+      "A moderator slows fast neutrons through collisions while absorbing relatively few of them. Water is a suitable moderator. Control-rod materials instead absorb neutrons to regulate the chain reaction."
+    ],
+    [
+      "E4",
+      "Neutron balance in a steady chain reaction",
+      "For a steady chain reaction, exactly one of the four emitted neutrons per fission must cause the next fission on average. Thus three must be absorbed or lost: N_c + N_l = 3. Of the listed pairs, 2 and 1 satisfy this condition."
+    ],
+    [
+      "E5",
+      "Distance from a stellar parallax angle",
+      "Using parallax in arc-seconds, distance in parsecs is d = 1/p. For p = 1 × 10⁻² arc-second, d = 100 pc."
+    ]
+  ],
+  "1A-TZ2": [
+    [
+      "A1",
+      "Initial speed of a ball thrown upwards",
+      "Take upwards as positive: the displacement is −50 m, the acceleration is −g and time is 5.0 s. From s = ut + ½at², u = [−50 + ½g(5.0)²]/5.0 ≈ 15 m s⁻¹."
+    ],
+    [
+      "A1",
+      "Displacement in successive seconds",
+      "The acceleration is constant and the object starts from rest, so displacement is proportional to t². The total displacement after two seconds is 4 × 1.5 = 6.0 m. During the second second alone it is 6.0 − 1.5 = 4.5 m."
+    ],
+    [
+      "A2",
+      "Effect of air resistance on projectile motion",
+      "Air resistance reduces the maximum height and the horizontal velocity. At the highest point the velocity, and therefore drag, is horizontal, so the vertical acceleration remains g downward. The reduced horizontal motion also makes the impact direction steeper. All three statements are correct.",
+      ["A1"]
+    ],
+    [
+      "A2",
+      "Free-body diagram on a banked road",
+      "Weight acts vertically downwards and the normal reaction is perpendicular to the road. At the maximum speed, the tendency is to slip up the bank, so friction acts down the slope. The diagram satisfying all three directions is D."
+    ],
+    [
+      "A2",
+      "Terminal speed and the radius of a sphere",
+      "For Stokes flow, drag is proportional to rv, while weight minus upthrust is proportional to r³ for the same materials. Balancing forces at terminal speed gives v_t proportional to r². Doubling the radius gives 4v."
+    ],
+    [
+      "A4",
+      "Number of revolutions of an accelerating wheel",
+      "For constant angular acceleration from rest, the mean angular velocity is half the final value. Angular displacement is ½(5π)(4.0) = 10π radians, or 5 complete revolutions."
+    ],
+    [
+      "A4",
+      "Units of angular impulse",
+      "Angular impulse is torque multiplied by time, or the change in angular momentum. Its SI unit is N m s, equivalent to kg m² s⁻¹."
+    ],
+    [
+      "A4",
+      "Rotational and translational energy of a moving car",
+      "Each wheel has rotational energy ½Iω² = ¼mv² because I = ½mR² and ω = v/R. Four wheels therefore have total rotational energy mv². Divide by the car’s translational energy ½Mv² to obtain 2m/M."
+    ],
+    [
+      "B1",
+      "Power radiated by two black bodies",
+      "Black-body power is proportional to R²T⁴. Since T_X = 2T_Y and P_Y = 2P_X, R_Y² = 2 × 16R² = 32R². Thus R_Y = 4√2 R."
+    ],
+    [
+      "B2",
+      "Incoming solar intensity and albedo",
+      "An albedo of 0.25 reflects one quarter of the incoming radiation. The remaining intensity is (1 − 0.25)S = 3S/4. The Sun is directly overhead here; the global-average factor of 1/4 does not apply."
+    ],
+    [
+      "B3",
+      "Pressure and density of gases at the same temperature",
+      "For an ideal gas, P = Nk_BT/V. Equal numbers of molecules in equal volumes at equal temperatures give equal pressures. More massive molecules give more mass in the same volume, so the densities differ."
+    ],
+    [
+      "B4",
+      "Identifying an isothermal stage on a P–V cycle",
+      "The isothermal curve is less steep than an adiabat through the same region. Compression during the isothermal stage means volume decreases along Z. Following the rest of the cycle then gives the clockwise direction, option D."
+    ],
+    [
+      "B5",
+      "Heating power and wire length",
+      "Use R = V²/P. The first wire has resistance 200²/500 = 80 Ω and the second has resistance 400²/2000 = 80 Ω. Same material and cross-section mean R is proportional to length, so the second length is L."
+    ],
+    [
+      "B5",
+      "Current ratio in a resistor network",
+      "Let the potential difference across the whole network be V and each resistance be R. The top branch contains only X, so I_X = V/R. The bottom branch has R in series with two parallel resistors, giving R + R/2 = 3R/2. Its current is 2V/(3R), which splits equally, so I_Y = V/(3R). Therefore I_X/I_Y = 3, option D."
+    ],
+    [
+      "C1",
+      "Acceleration–displacement graph for SHM",
+      "Simple harmonic motion satisfies a = −ω²x. The acceleration–displacement graph is therefore a straight line through the origin with negative gradient."
+    ],
+    [
+      "C1",
+      "Maximum elastic potential energy in SHM",
+      "The largest spring energy is E_max = ½kA². Doubling the amplitude quadruples it; changing the mass does not change this expression for the same spring. The new value is 4E."
+    ],
+    [
+      "C2",
+      "Average particle speed in a transverse wave",
+      "In a complete oscillation a particle travels a total distance 4A. The graph gives A = 4.0 cm and T = 20 ms, so its average speed is 4(0.040)/0.020 = 8 m s⁻¹. Transverse particle motion is perpendicular to wave travel."
+    ],
+    [
+      "C2",
+      "Frequency and nature of ultraviolet radiation",
+      "Ultraviolet radiation is an electromagnetic wave and is transverse. Its frequency is of order 10¹⁵ Hz. A value around 10⁻⁷ is a possible wavelength in metres, not a frequency in hertz."
+    ],
+    [
+      "C4",
+      "Phase in a fifth-harmonic standing wave",
+      "For a pipe closed at both ends, the fifth harmonic has displacement nodes every L/5 = 5 cm. Points in neighbouring loops oscillate in antiphase. The positions 2 cm and 7 cm are in adjacent loops and differ in phase by π."
+    ],
+    [
+      "C1",
+      "Lightly damped oscillations",
+      "For a fixed lightly damped system, amplitude gradually decays but the oscillation frequency remains constant in time. Its damped frequency is slightly below the undamped natural frequency, so exact equality is not the correct statement."
+    ],
+    [
+      "D1",
+      "Speed of a planet in a circular orbit",
+      "For an orbit around the same star, v = √(GM_star/r), independent of the planet’s own mass. Increasing the orbital radius to 1.5R gives v₂/v₁ = √(1/1.5) = √(2/3)."
+    ],
+    [
+      "D2",
+      "Resultant electric field between two positive charges",
+      "The two fields at P point in opposite directions. Apply E = kQ/r² to each charge using the distances shown, then subtract. The resultant magnitude is kQ/(2x²), directed to the right."
+    ],
+    [
+      "D2",
+      "Magnetic field lines between like poles",
+      "Outside a bar magnet, field lines leave a north pole and enter a south pole. They do not cross or connect one north pole to another. The field lines between the facing north poles curve away from the central region; diagram C obeys these rules."
+    ],
+    [
+      "D3",
+      "Electric field and proton kinetic energy",
+      "The potential difference is 450 − 200 = 250 V across 0.50 m, so E = 500 N C⁻¹. A proton moving to the higher potential gains electrical potential energy, so its kinetic energy decreases.",
+      ["D2"]
+    ],
+    [
+      "D3",
+      "Identifying particles from magnetic deflection",
+      "Use the magnetic-force direction for positive and negative charges. The undeflected path is the neutron. The two oppositely curved paths are the proton and electron, giving Q: proton, R: neutron, S: electron."
+    ],
+    [
+      "D3",
+      "Force on a movable current-carrying rod",
+      "For the rod to move right with the field directed out of the page, the conventional current through the rod must be upward. This is an anti-clockwise current around the circuit. The wire is perpendicular to the field, so the initial force is BIL sin 90°."
+    ],
+    [
+      "D2",
+      "Force between two parallel current-carrying wires",
+      "Force per unit length is proportional to I_X I_Y/r. Doubling one current and doubling the separation cancel. Reversing both currents preserves their opposite directions, so the force remains repulsive with magnitude F."
+    ],
+    [
+      "D4",
+      "Magnetic field from an induced average emf",
+      "A 180° rotation changes the flux from BA to −BA, so the magnitude of the flux change is 2BA. From ε_avg = 2BA/Δt, B = (2.0 × 10⁻⁶)(2.0)/[2(4.0 × 10⁻⁴)] = 5.0 mT."
+    ],
+    [
+      "D4",
+      "Coil rotation and the induced emf graph",
+      "An emf is induced only when the rotation changes magnetic flux through the coil. Rotation about the field direction does not do that. The orientation and quarter-cycle variation shown correspond to a π/2 rotation about XX′, option A."
+    ],
+    [
+      "D4",
+      "Effect of smaller oscillation amplitude on induced current",
+      "The period of the mass–spring motion does not depend on amplitude in the SHM model. A smaller amplitude reduces the magnet’s speed and the rate of flux change, reducing the induced-current amplitude while retaining the period. The matching trace is D.",
+      ["C1"]
+    ],
+    [
+      "B3",
+      "Masses of equal-volume gas samples",
+      "Equal P, V, and T imply equal numbers of molecules. Compare molecular masses using the given nuclides: CH₄ = 16, H₂O = 18, and CO₂ and N₂O = 44. Methane therefore has the smallest mass.",
+      ["E1"]
+    ],
+    [
+      "E1",
+      "Longest-wavelength photon from atomic transitions",
+      "For an emitted photon, E = hc/λ. The longest wavelength corresponds to the smallest downward energy change. In the given energy-level diagram this is transition E₄."
+    ],
+    [
+      "E1",
+      "Distance of closest approach in Rutherford scattering",
+      "An alpha particle accelerated through V gains kinetic energy 2eV. At closest approach to gold this equals k(2e)(79e)/r. Cancelling 2e gives r = 79ke/V, with V = 7.7 × 10⁶ V."
+    ],
+    [
+      "E2",
+      "Work functions from photoelectric graphs",
+      "In E_k,max = hf − Φ, the frequency-axis intercept is the threshold frequency Φ/h. Surface Y has the larger threshold frequency in the graph, so it has the larger work function. Intensity does not set the threshold frequency."
+    ],
+    [
+      "E2",
+      "Radiation intensity and photon arrival rate",
+      "Intensity is photon arrival rate per unit area multiplied by energy per photon. Doubling wavelength halves hc/λ, while doubling the arrival rate cancels that change. The intensity remains I."
+    ],
+    [
+      "E5",
+      "Fusion and fission energy per unit fuel mass",
+      "Energy released is proportional to the mass defect. Compare per unit fuel mass: (0.024/5)/(0.48/235) = 2.35. This is different from comparing energy per single reaction.",
+      ["E4"]
+    ],
+    [
+      "E3",
+      "Properties of gamma radiation",
+      "Gamma photons travel at c in a vacuum, faster than massive beta particles, and are more penetrating. Their ionising ability is lower, not greater. Thus statements I and II are correct."
+    ],
+    [
+      "E3",
+      "Decay constant from sample mass and activity",
+      "Find the number of nuclei using N = (4.4/222)N_A ≈ 1.19 × 10²². Activity is A = λN, so λ = (2.5 × 10¹⁶)/N ≈ 2.1 × 10⁻⁶ s⁻¹."
+    ],
+    [
+      "E4",
+      "Role of a moderator in a nuclear reactor",
+      "The moderator reduces neutrons’ kinetic energy through collisions, increasing the chance of thermal-neutron-induced fission. It is distinct from control rods, which absorb neutrons, and the coolant, which transports energy."
+    ],
+    [
+      "E5",
+      "Stellar radius from apparent brightness",
+      "For equal surface temperatures, apparent brightness is proportional to R²/d². Star Y is at half the distance and twice as bright, so 4R_Y²/R² = 2. Therefore R_Y = R/√2."
+    ]
+  ],
+  "1B-TZ1": [
+    [
+      "B1",
+      "Density measurements, uncertainty and water temperature",
+      "Calculate density from mass divided by volume, and propagate fractional uncertainties for the quotient. Compare the resulting interval with the temperature-dependent density data, keeping the reading technique and uncertainty reasoning separate. Use the original marking points below for each subpart."
+    ],
+    [
+      "C3",
+      "Refraction experiment with a semicircular glass block",
+      "A ray entering along a radius meets the curved surface normally. Use Snell’s law at the flat surface, process the sine values, and interpret the best-fit gradient to obtain the refractive index. Check the graph and the measurement uncertainties against the supplied marking points."
+    ],
+    [
+      "D2",
+      "Measuring Earth’s horizontal magnetic field with coils",
+      "Compare field uniformity over the length of the magnetic needle, not just the field at the centre. Orient the apparatus so the coil field is perpendicular to Earth’s horizontal field, then relate their magnitudes to the needle’s deflection. The official scheme gives the accepted experimental explanations."
+    ]
+  ],
+  "1B-TZ2": [
+    [
+      "B5",
+      "Resistivity of a wire and propagated measurement uncertainty",
+      "Reject the anomalous diameter reading with a justified reason before finding the mean. Use ρ = RA/L with A = πd²/4. In percentage uncertainty, the diameter contribution is doubled because area depends on d²; combine it with the resistance and length contributions as the scheme specifies."
+    ],
+    [
+      "B3",
+      "Testing the ideal-gas relationship using a graph",
+      "At constant temperature for fixed gas, P = K/V, so a graph of P against 1/V should be linear. Process the missing reciprocal, plot with the correct scales, draw a best-fit line, and obtain K from its gradient. Use PV = Nk_BT for the later deductions."
+    ]
+  ],
+  "2-TZ1": [
+    [
+      "A3",
+      "Work, force–distance graphs and car motion",
+      "Area under a force–distance graph is work done. Relate the net work to the change in kinetic energy and use the force balance or power relation for the later motion. Retain units and distinguish instantaneous graph values from integrated areas.",
+      ["A2"]
+    ],
+    [
+      "D1",
+      "Orbital motion of Venus and gravitational relationships",
+      "For a near-circular orbit use v = 2πr/T and GM/r² = v²/r. These combine into the period–radius relationship. Convert all times and lengths to SI units before substituting, and follow the official scheme for the required derived quantities."
+    ],
+    [
+      "E1",
+      "Rutherford scattering, nuclear structure and gamma photons",
+      "Use energy conservation to relate an alpha particle’s initial kinetic energy to its electrical potential energy at closest approach. For gamma transitions, photon energy is hf and corresponds to the change in nuclear energy. The supplied marking points specify the required nuclear interpretations.",
+      ["E2"]
+    ],
+    [
+      "B4",
+      "Microstates, entropy and energy distributions",
+      "Count the ways distinguishable particles can occupy each energy distribution, rather than counting only the drawn energy levels. The more probable macrostate has the greater number of microstates. Connect entropy to the multiplicity using S = k_B ln Ω where required."
+    ],
+    [
+      "C5",
+      "Doppler effect and the frequency of detected sound",
+      "A lower detected frequency means the detector moves away from the stationary source. Use the moving-observer Doppler relation with consistent signs. The source wavelength in the air is set by the sound speed and source frequency, independently of the detector’s motion.",
+      ["C2"]
+    ],
+    [
+      "D3",
+      "Acceleration and deflection of an electron in electric fields",
+      "First use eV = ½m_e v² for the accelerating potential. Resolve the later motion into an unchanged component and a component accelerated by the electric force. Use the time spent between the plates to calculate the displacement and subsequent trajectory.",
+      ["D2"]
+    ],
+    [
+      "A5",
+      "Spacetime intervals and simultaneity in different frames",
+      "Read coordinates from the spacetime diagram and evaluate the invariant interval using a consistent sign convention. Events that are simultaneous in one frame need not be simultaneous in another. Use the geometry of the tilted axes or Lorentz transformations as required."
+    ],
+    [
+      "B2",
+      "Earth’s radiation balance, solar fusion and stellar evolution",
+      "For Earth’s energy balance distinguish the solar constant from the average over a sphere, apply albedo, and use emitted power per area proportional to T⁴. The later parts address fusion and positions on the H–R diagram; keep the stellar deductions separate from the atmospheric model. See the matching scheme for all subparts.",
+      ["E5"]
+    ],
+    [
+      "C1",
+      "Oscillating magnet, spring energy and electromagnetic induction",
+      "Use the static equilibrium extension to find elastic energy, then apply SHM relationships between position, acceleration, speed, and period. For the coil, connect induced emf to the rate of change of magnetic flux and use Lenz’s law for direction. The original scheme includes the required graphs and reasoning.",
+      ["D4"]
+    ]
+  ],
+  "2-TZ2": [
+    [
+      "A2",
+      "Elastic collision of carts and impulse",
+      "Check both momentum conservation and kinetic energies before and after the collision to establish elasticity. The average force follows from impulse divided by collision duration. Use the velocity–time information consistently for each cart.",
+      ["A3"]
+    ],
+    [
+      "B1",
+      "Thermal conduction, heating and thermodynamic energy changes",
+      "Conduction transfers internal energy through interactions between particles and, in metals, mobile electrons. Use the temperature gradient and thermal conductivity for the rate of energy transfer. Apply the first and second laws carefully to the later heating and cooling situations.",
+      ["B4"]
+    ],
+    [
+      "D3",
+      "Alpha-particle motion between electric and magnetic fields",
+      "For the plates use E = ΔV/d and electric force qE with the alpha particle’s charge +2e. Find acceleration and motion using its mass. When a magnetic field is introduced, use the vector direction and magnitude of qv × B and compare it with the electric force.",
+      ["D2"]
+    ],
+    [
+      "C3",
+      "Coherence, interference and wavelength-dependent patterns",
+      "Stable interference requires a constant phase difference. Connect path difference to constructive and destructive interference, and use the specified geometry to relate fringe position to wavelength. In the multi-wavelength part, identify which wavelengths meet the same interference condition."
+    ],
+    [
+      "E2",
+      "Compton scattering, photon momentum and electron recoil",
+      "Compton scattering requires conservation of both energy and momentum. Use photon momentum p = h/λ and photon energy E = hc/λ, then find the energy transferred to the recoiling electron. Compare the evidence with the photoelectric effect using the requested physical argument."
+    ],
+    [
+      "A5",
+      "Spacecraft journey and spacetime transformations",
+      "The elapsed Earth-frame time is 50 years. At speed 0.60c, γ = 1.25, so the spacecraft’s proper time for that leg is 50/1.25 = 40 years. Use the appropriate frame and Lorentz transformation for the other events and diagram readings."
+    ],
+    [
+      "E5",
+      "Fusion, gas conditions and the Sun’s main-sequence lifetime",
+      "High core temperature allows energetic collisions and high density raises their rate, making fusion possible. Use the stated reaction chain and mass–energy relationship to estimate the released energy and fuel lifetime. The final rotational part uses angular speed and centripetal acceleration at the Sun’s equator.",
+      ["B3", "A4"]
+    ],
+    [
+      "A2",
+      "Spacecraft collecting dust and a satellite orbit",
+      "The swept volume in time Δt is SvΔt, so the collected mass is ρSvΔt; account for momentum transfer as the craft gains mass. For the satellite parts use circular-orbit relationships, gravitational energy, and the measured height–time graph. Follow the official scheme for the separate orbit and rocket-burn deductions.",
+      ["D1"]
+    ]
+  ]
+}

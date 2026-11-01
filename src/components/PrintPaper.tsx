@@ -3,6 +3,7 @@ import { subjects, getTopic } from '../data/syllabus';
 import { paperTotals } from '../lib/questions';
 import MathText from './MathText';
 import Figure from './Figure';
+import OriginalPages from './OriginalPages';
 
 export interface PrintDocument {
   name: string;
@@ -35,11 +36,14 @@ export default function PrintPaper({ document }: { document: PrintDocument | nul
         </div>
       )}
       <p className="print-disclaimer">
-        Custom practice compilation. Not an official IB examination paper. Original practice is
-        identified per question; its mark scheme is indicative.
+        Custom practice compilation. Original question numbers and source details are retained.
+        Uploaded questions and marking points are reproduced from the supplied IB PDFs.
       </p>
       {questions.map((q, i) => (
-        <article className="print-question" key={q.id}>
+        <article
+          className={`print-question ${q.questionImages ? 'has-original-images' : ''}`}
+          key={q.id}
+        >
           <div className="print-question-header">
             <strong>
               {i + 1}. {getTopic(q.subject, q.topicId)?.name}
@@ -49,16 +53,26 @@ export default function PrintPaper({ document }: { document: PrintDocument | nul
             </span>
           </div>
           <small>
-            {q.source === 'original' ? 'Original practice' : `${q.sourceName} · ${q.year}`} ·{' '}
-            {q.subtopic}
+            {q.source === 'original' ? 'Original practice' : q.sourceName}
+            {q.year && !q.examSession ? ` · ${q.year}` : ''}
+            {q.originalQuestionNumber
+              ? ` · Original question ${q.originalQuestionNumber}`
+              : ''} · {q.subtopic}
           </small>
           {mode === 'questions' ? (
             <>
               <p>
                 <MathText text={q.prompt} />
               </p>
+              {q.questionImages && (
+                <OriginalPages
+                  images={q.questionImages}
+                  label={`${q.paper} ${q.timeZone}, original question ${q.originalQuestionNumber}`}
+                  print
+                />
+              )}
               {q.figure && <Figure type={q.figure} />}
-              {q.type === 'mcq' ? (
+              {q.type === 'mcq' && !q.questionImages ? (
                 <div className="print-options">
                   {q.options?.map((option, j) => (
                     <p key={j}>
@@ -66,13 +80,13 @@ export default function PrintPaper({ document }: { document: PrintDocument | nul
                     </p>
                   ))}
                 </div>
-              ) : (
+              ) : q.type === 'structured' && !q.questionImages ? (
                 <div className="answer-lines">
                   {Array.from({ length: Math.max(3, q.marks) }, (_, j) => (
                     <div key={j} />
                   ))}
                 </div>
-              )}
+              ) : null}
             </>
           ) : (
             <>
@@ -80,8 +94,16 @@ export default function PrintPaper({ document }: { document: PrintDocument | nul
                 <MathText text={q.answer} />
               </p>
               <p>
+                {q.questionImages && <strong>Study explanation: </strong>}
                 <MathText text={q.explanation} />
               </p>
+              {q.markSchemeImages && (
+                <OriginalPages
+                  images={q.markSchemeImages}
+                  label={`Original mark scheme for ${q.paper} ${q.timeZone}, question ${q.originalQuestionNumber}`}
+                  print
+                />
+              )}
               {q.steps.map((step, j) => (
                 <div className="print-mark" key={j}>
                   <MathText text={step.text} />

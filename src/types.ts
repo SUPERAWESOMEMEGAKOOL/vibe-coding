@@ -1,6 +1,6 @@
 export type Subject = 'math' | 'physics';
 export type QuestionType = 'structured' | 'mcq';
-export type Difficulty = 'Foundation' | 'Standard' | 'Challenge';
+export type Difficulty = 'Foundation' | 'Standard' | 'Challenge' | 'Unrated';
 export type View = 'bank' | 'saved' | 'papers' | 'sources' | 'syllabus' | 'mistakes' | 'feedback';
 
 export interface Topic {
@@ -33,6 +33,26 @@ export interface Question {
   sourceUrl?: string;
   markSchemeUrl?: string;
   figure?: 'velocity' | 'wave' | 'parabola';
+  originalQuestionNumber?: number;
+  examSession?: string;
+  timeZone?: 'TZ1' | 'TZ2';
+  examCode?: string;
+  additionalTopics?: { topicId: string; subtopic: string }[];
+  questionImages?: SourceImage[];
+  markSchemeImages?: SourceImage[];
+  questionDocument?: SourceDocument;
+  markSchemeDocument?: SourceDocument;
+}
+
+export interface SourceImage {
+  path: string;
+  width: number;
+  height: number;
+  page: number;
+}
+export interface SourceDocument {
+  path: string;
+  page: number;
 }
 
 export interface Attempt {
@@ -68,7 +88,6 @@ export interface PracticePaper {
 
 export interface AppState {
   subject: Subject;
-  showDemoQuestions: boolean;
   bookmarks: string[];
   attempts: Record<string, Attempt>;
   history: PracticeEvent[];

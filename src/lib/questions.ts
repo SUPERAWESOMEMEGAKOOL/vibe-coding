@@ -1,5 +1,6 @@
 import { topics } from '../data/syllabus';
 import type { Difficulty, Question, Subject } from '../types';
+import { isLocalPaperPath } from './assets';
 
 export interface Filters {
   subject: Subject;
@@ -8,6 +9,8 @@ export interface Filters {
   type: string;
   difficulty: string;
   source: string;
+  paper?: string;
+  timeZone?: string;
   query: string;
   sort: string;
 }
@@ -17,24 +20,40 @@ export function filterQuestions(questions: Question[], filters: Filters) {
   const matches = questions.filter(
     (q) =>
       q.subject === filters.subject &&
-      (filters.topic === 'all' || q.topicId === filters.topic) &&
-      (filters.subtopic === 'all' || q.subtopic === filters.subtopic) &&
+      (filters.topic === 'all' ||
+        q.topicId === filters.topic ||
+        q.additionalTopics?.some((t) => t.topicId === filters.topic)) &&
+      (filters.subtopic === 'all' ||
+        q.subtopic === filters.subtopic ||
+        q.additionalTopics?.some((t) => t.subtopic === filters.subtopic)) &&
       (filters.type === 'all' || q.type === filters.type) &&
       (filters.difficulty === 'all' || q.difficulty === filters.difficulty) &&
       (filters.source === 'all' || q.source === filters.source) &&
+      (!filters.paper || filters.paper === 'all' || q.paper === filters.paper) &&
+      (!filters.timeZone || filters.timeZone === 'all' || q.timeZone === filters.timeZone) &&
       (!query ||
         [
           q.prompt,
           q.subtopic,
+          ...(q.additionalTopics?.map((t) => t.subtopic) ?? []),
           q.sourceName,
           q.paper,
           q.year?.toString(),
+          q.timeZone,
+          q.examSession,
+          q.examCode,
+          q.originalQuestionNumber ? `question ${q.originalQuestionNumber}` : undefined,
           topics[q.subject].find((t) => t.id === q.topicId)?.name,
         ].some((value) => value?.toLowerCase().includes(query))),
   );
   if (filters.sort === 'marks') return matches.sort((a, b) => a.marks - b.marks);
   if (filters.sort === 'difficulty') {
-    const order: Record<Difficulty, number> = { Foundation: 0, Standard: 1, Challenge: 2 };
+    const order: Record<Difficulty, number> = {
+      Foundation: 0,
+      Standard: 1,
+      Challenge: 2,
+      Unrated: 3,
+    };
     return matches.sort((a, b) => order[a.difficulty] - order[b.difficulty]);
   }
   if (filters.sort === 'newest') return matches.sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
@@ -77,12 +96,42 @@ export function validateQuestion(value: unknown): Question {
     throw new Error('Type must be "mcq" or "structured".');
   if (q.subject === 'math' && q.type === 'mcq')
     throw new Error('Math AA HL uses structured questions. Choose structured for this subject.');
-  if (!['Foundation', 'Standard', 'Challenge'].includes(q.difficulty as string))
-    throw new Error('Choose Foundation, Standard, or Challenge difficulty.');
+  if (!['Foundation', 'Standard', 'Challenge', 'Unrated'].includes(q.difficulty as string))
+    throw new Error('Choose Foundation, Standard, Challenge, or Unrated difficulty.');
   if (!Number.isInteger(q.marks) || (q.marks as number) < 1 || (q.marks as number) > 100)
     throw new Error('Marks must be an integer from 1 to 100.');
   if (!Number.isInteger(q.minutes) || (q.minutes as number) < 1 || (q.minutes as number) > 300)
     throw new Error('Suggested time must be from 1 to 300 minutes.');
+  const images = (key: string) => {
+    if (q[key] === undefined) return undefined;
+    if (!Array.isArray(q[key]) || q[key].length === 0 || q[key].length > 30)
+      throw new Error('Original page images must be a non-empty list of up to 30 images.');
+    return q[key].map((image: { path: unknown; width: number; height: number; page: number }) => {
+      if (
+        !image ||
+        !isLocalPaperPath(image.path, 'image') ||
+        !Number.isInteger(image.width) ||
+        image.width < 1 ||
+        !Number.isInteger(image.height) ||
+        image.height < 1 ||
+        !Number.isInteger(image.page) ||
+        image.page < 1
+      )
+        throw new Error('Invalid original page image.');
+      return { path: image.path, width: image.width, height: image.height, page: image.page };
+    });
+  };
+  const questionImages = images('questionImages');
+  const markSchemeImages = images('markSchemeImages');
+  const documentRef = (key: string) => {
+    if (q[key] === undefined) return undefined;
+    const d = q[key] as { path: unknown; page: number };
+    if (!d || !isLocalPaperPath(d.path, 'pdf') || !Number.isInteger(d.page) || d.page < 1)
+      throw new Error('Invalid original PDF reference.');
+    return { path: d.path, page: d.page };
+  };
+  const questionDocument = documentRef('questionDocument');
+  const markSchemeDocument = documentRef('markSchemeDocument');
   if (
     !textField(q.paper, 100) ||
     !textField(q.prompt) ||
@@ -102,12 +151,12 @@ export function validateQuestion(value: unknown): Question {
     throw new Error('An MCQ needs four options and a correctOption index from 0 to 3.');
   if (
     !Array.isArray(q.steps) ||
-    q.steps.length === 0 ||
+    (q.steps.length === 0 && !markSchemeImages) ||
     q.steps.length > 50 ||
     q.steps.some(
       (step) => !step || !textField(step.text) || !Number.isInteger(step.marks) || step.marks < 0,
     ) ||
-    q.steps.reduce((sum, step) => sum + step.marks, 0) !== q.marks
+    (q.steps.length > 0 && q.steps.reduce((sum, step) => sum + step.marks, 0) !== q.marks)
   )
     throw new Error(
       'Mark scheme steps must have non-negative integer marks adding up to the question’s total.',
@@ -150,6 +199,32 @@ export function validateQuestion(value: unknown): Question {
     ...(q.year ? { year: q.year as number } : {}),
     ...(q.sourceUrl ? { sourceUrl: q.sourceUrl as string } : {}),
     ...(q.markSchemeUrl ? { markSchemeUrl: q.markSchemeUrl as string } : {}),
+    ...(questionImages ? { questionImages } : {}),
+    ...(markSchemeImages ? { markSchemeImages } : {}),
+    ...(questionDocument ? { questionDocument } : {}),
+    ...(markSchemeDocument ? { markSchemeDocument } : {}),
+    ...(Number.isInteger(q.originalQuestionNumber) && (q.originalQuestionNumber as number) > 0
+      ? { originalQuestionNumber: q.originalQuestionNumber as number }
+      : {}),
+    ...(q.timeZone === 'TZ1' || q.timeZone === 'TZ2' ? { timeZone: q.timeZone } : {}),
+    ...(textField(q.examSession, 80) ? { examSession: q.examSession } : {}),
+    ...(textField(q.examCode, 80) ? { examCode: q.examCode } : {}),
+    ...(Array.isArray(q.additionalTopics)
+      ? {
+          additionalTopics: q.additionalTopics.map(
+            (entry: { topicId: string; subtopic: string }) => {
+              if (
+                !entry ||
+                !topics[q.subject as Subject].some(
+                  (t) => t.id === entry.topicId && t.subtopics.includes(entry.subtopic),
+                )
+              )
+                throw new Error('Invalid additional topic.');
+              return { topicId: entry.topicId, subtopic: entry.subtopic };
+            },
+          ),
+        }
+      : {}),
   };
 }
 

@@ -115,9 +115,9 @@ export default function Sources({
         <div>
           <strong>Real papers, with their sources</strong>
           <p>
-            Open verified IB documents below, or use your uploaded paper and mark-scheme PDFs. The
-            ibresources.cc catalogue is behind a browser verification step and has not been indexed.
-            Original demo questions are hidden by default.
+            Your May 2025 Physics HL papers and matching mark schemes are available below. All 102
+            questions are also organized by topic in the question bank. Math AA HL specimens are
+            available here; Math past papers have not been uploaded yet.
           </p>
         </div>
       </div>
@@ -135,9 +135,9 @@ export default function Sources({
           <span className="resource-label">YOUR REQUESTED PAPER SOURCE · LINK ONLY</span>
           <h3>ibresources.cc</h3>
           <p>
-            The requested source for Math AA HL and Physics HL papers. The website currently
-            requires Cloudflare browser verification from this environment, so its files have not
-            been verified or imported. You can open the site in your own browser.
+            Browse for more Math AA HL and Physics HL papers. Your uploaded Physics papers are
+            already included in Folio. This external catalogue is a reference link; other papers on
+            it have not been imported or verified.
           </p>
           <div className="source-syllabus-tags">
             <span>Math AA HL · 2021–2026</span>

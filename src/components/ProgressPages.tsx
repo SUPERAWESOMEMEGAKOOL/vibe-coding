@@ -649,7 +649,8 @@ export function FeedbackPage({
       )}
       <p className="progress-footnote">
         <Leaf size={13} />
-        Your feedback stays on this device and updates as you practise.
+        Your feedback stays on this device and updates as you practise. Mixed questions count under
+        their main topic; structured results are self-checked for the whole question.
       </p>
     </div>
   );

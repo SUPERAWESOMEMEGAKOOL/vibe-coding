@@ -14,6 +14,8 @@ import { getTopic } from '../data/syllabus';
 import type { Attempt, Question } from '../types';
 import MathText from './MathText';
 import Figure from './Figure';
+import OriginalPages from './OriginalPages';
+import { documentUrl } from '../lib/assets';
 
 interface Props {
   question: Question;
@@ -45,10 +47,12 @@ export default function QuestionCard({
     <article className={`question-card ${selected ? 'is-selected' : ''}`}>
       <div className="question-topline">
         <div className="question-label">
-          <span className="question-number">{String(index + 1).padStart(2, '0')}</span>
+          <span className="question-number">
+            {String(q.originalQuestionNumber ?? index + 1).padStart(2, '0')}
+          </span>
           <span>
             {q.source === 'original' ? 'ORIGINAL PRACTICE' : q.sourceName}
-            {q.year ? ` · ${q.year}` : ''}
+            {q.year && !q.examSession ? ` · ${q.year}` : ''}
           </span>
         </div>
         <button
@@ -65,18 +69,37 @@ export default function QuestionCard({
           <span className="tag-dot" />
           {topic?.name}
         </span>
-        <span className={`difficulty ${q.difficulty.toLowerCase()}`}>
-          <i />
-          <i />
-          <i />
-          {q.difficulty}
-        </span>
+        {q.difficulty !== 'Unrated' && (
+          <span className={`difficulty ${q.difficulty.toLowerCase()}`}>
+            <i />
+            <i />
+            <i />
+            {q.difficulty}
+          </span>
+        )}
         <span className="question-paper">{q.paper}</span>
+        {q.timeZone && <span className="time-zone-tag">{q.timeZone}</span>}
       </div>
       <p className="question-subtopic">{q.subtopic}</p>
       <div className="question-prompt">
         <MathText text={q.prompt} />
       </div>
+      {q.questionImages && (
+        <div className="question-original">
+          <OriginalPages
+            images={q.questionImages}
+            label={`${q.paper} ${q.timeZone}, question ${q.originalQuestionNumber}: ${q.prompt}`}
+          />
+        </div>
+      )}
+      {q.additionalTopics && q.additionalTopics.length > 0 && (
+        <div className="additional-topic-tags">
+          <span>Also covers</span>
+          {q.additionalTopics.map((t) => (
+            <span key={t.subtopic}>{t.subtopic}</span>
+          ))}
+        </div>
+      )}
       {q.figure && <Figure type={q.figure} />}
       {q.type === 'mcq' && (
         <div className="mcq-options" role="group" aria-label="Answer choices">
@@ -91,7 +114,7 @@ export default function QuestionCard({
                 aria-pressed={picked}
               >
                 <span className="option-letter">{'ABCD'[i]}</span>
-                <MathText text={option} />
+                <MathText text={q.questionImages ? `Choose ${'ABCD'[i]}` : option} />
                 {picked && (attempt.correct ? <CheckCircle2 size={19} /> : <XCircle size={19} />)}
               </button>
             );
@@ -151,15 +174,21 @@ export default function QuestionCard({
           <p className="answer-text">
             <MathText text={q.answer} />
           </p>
-          <h4>Let’s work through it</h4>
+          <h4>{q.questionImages ? 'Study explanation' : 'Let’s work through it'}</h4>
           <p>
             <MathText text={q.explanation} />
           </p>
           <div className="mark-scheme">
             <div className="mark-scheme-header">
-              <h4>Mark scheme</h4>
+              <h4>{q.markSchemeImages ? 'Official mark scheme' : 'Mark scheme'}</h4>
               <span>{q.marks} marks available</span>
             </div>
+            {q.markSchemeImages && (
+              <OriginalPages
+                images={q.markSchemeImages}
+                label={`Official marking points for ${q.paper} ${q.timeZone}, question ${q.originalQuestionNumber}`}
+              />
+            )}
             {q.steps.map((step, i) => (
               <div key={i} className="mark-step">
                 <span className="step-number">{i + 1}</span>
@@ -168,6 +197,12 @@ export default function QuestionCard({
               </div>
             ))}
           </div>
+          {q.questionImages && (
+            <p className="solution-note">
+              The question and official marking points are reproduced from your uploaded PDFs. The
+              study explanation is supplementary guidance.
+            </p>
+          )}
           {q.source === 'original' && (
             <p className="solution-note">
               Original practice with an indicative mark scheme. Not an official IB examination
@@ -184,6 +219,26 @@ export default function QuestionCard({
               {q.markSchemeUrl && (
                 <a href={q.markSchemeUrl} target="_blank" rel="noopener noreferrer">
                   Original mark scheme <ExternalLink size={13} />
+                </a>
+              )}
+            </div>
+          )}
+          {(q.questionDocument || q.markSchemeDocument) && (
+            <div className="source-links">
+              {q.questionDocument && (
+                <a href={documentUrl(q.questionDocument)} target="_blank" rel="noopener noreferrer">
+                  Open original question paper
+                  <ExternalLink size={13} />
+                </a>
+              )}
+              {q.markSchemeDocument && (
+                <a
+                  href={documentUrl(q.markSchemeDocument)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open original mark scheme
+                  <ExternalLink size={13} />
                 </a>
               )}
             </div>

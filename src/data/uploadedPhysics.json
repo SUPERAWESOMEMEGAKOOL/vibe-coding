@@ -1,0 +1,5786 @@
+[
+  {
+    "id": "physics-2025-may-tz1-1a-q01",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.1 Kinematics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Instantaneous velocity",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Instantaneous velocity is the rate of change of position at an instant: v = dx/dt. Displacement divided by a finite time interval gives average velocity; distance-based expressions describe speed.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q1",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 1,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q01-p3.webp",
+        "width": 373,
+        "height": 258,
+        "page": 3
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q01.webp",
+        "width": 112,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q02",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.1 Kinematics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Acceleration–time graph and final speed",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The change in velocity is the signed area under the acceleration–time graph. The object starts from rest, so summing the areas up to 8.0 s gives its final speed, 32 m s⁻¹.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q2",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 2,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q02-p3.webp",
+        "width": 851,
+        "height": 670,
+        "page": 3
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q02.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q03",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Resolving the force on an accelerating cube",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Resolve the applied force along the vertical. Its upward component is F cos θ and the weight is mg downward. Newton’s second law gives a = (F cos θ − mg)/m. The frictionless surface supplies a horizontal normal reaction.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q3",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 3,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q03-p4.webp",
+        "width": 849,
+        "height": 749,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q03.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 4
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q04",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Buoyancy and displaced volume",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a fully submerged object, buoyancy is the weight of displaced water: F = ρ_water gV. Halving the radius reduces the volume by a factor of eight. The sphere’s own density does not change this displaced volume, so F₁/F₂ = 8.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q4",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 4,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q04-p4.webp",
+        "width": 864,
+        "height": 378,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q04.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 4
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q05",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Angular velocity of an orbiting satellite",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "One orbit is 2π radians and 24 h is 86400 s. Thus ω = 2π/T = 2π/86400 ≈ 7.3 × 10⁻⁵ rad s⁻¹.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q5",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 5,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q05-p5.webp",
+        "width": 615,
+        "height": 254,
+        "page": 5
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q05.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q06",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Impulse and final kinetic energy",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Impulse equals the change in momentum. Starting from rest, p = 2.0 kg m s⁻¹. Then E_k = p²/(2m) = 2.0²/(2 × 5.0) = 0.40 J.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q6",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 6,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q06-p5.webp",
+        "width": 740,
+        "height": 254,
+        "page": 5
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q06.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pA",
+        "subtopic": "A.3 Work, energy and power"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q07",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.4 Rigid body mechanics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Angular acceleration and angular momentum",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Four rotations give an angular displacement of 8π radians. Using ω² = 2αθ from rest gives ω = 4√(πα). Since L = Iω, the change in angular momentum is 4I√(πα).",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q7",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 7,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q07-p5.webp",
+        "width": 875,
+        "height": 320,
+        "page": 5
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q07.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q08",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.4 Rigid body mechanics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Moment of inertia of two spheres",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Each 10 kg sphere is 4.0 m from the axis. Treating them as small particles, I = Σmr² = 2 × 10 × 4.0² = 320 kg m². The connecting rod has negligible mass.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q8",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 8,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q08-p6.webp",
+        "width": 872,
+        "height": 429,
+        "page": 6
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q08.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 6
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q09",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.5 Galilean and special relativity",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Relativistic addition of velocities",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Use relativistic velocity addition rather than adding speeds directly. With the spacecraft moving at +0.50c in X and −0.50c in Y, the relative speed of the observers is (0.50c + 0.50c)/(1 + 0.50 × 0.50) = 0.80c.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q9",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 9,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q09-p6.webp",
+        "width": 831,
+        "height": 299,
+        "page": 6
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q09.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 6
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q10",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.1 Thermal energy transfers",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Melting ice with warm water",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The water cools to 0 °C and releases mcT. This energy melts ice at its melting point, requiring m_melt L. Equating the energies gives m_melt = mcT/L.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q10",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 10,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q10-p7.webp",
+        "width": 836,
+        "height": 661,
+        "page": 7
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q10.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 7
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q11",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.2 Greenhouse effect",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Cause of the enhanced greenhouse effect",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Burning fossil fuels increases atmospheric greenhouse gases, especially carbon dioxide. These gases absorb outgoing infrared radiation and alter Earth’s energy balance. The supplied mark scheme selects burning fossil fuels.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q11",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 11,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q11-p7.webp",
+        "width": 568,
+        "height": 213,
+        "page": 7
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q11.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 7
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q12",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.4 Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Rapid compression of an ideal gas",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Rapid compression leaves little time for heat transfer. The moving piston does work on the gas; collisions with it increase molecular kinetic energy and therefore the molecules’ average speed. Compression itself is not thermal energy transfer.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q12",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 12,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q12-p8.webp",
+        "width": 759,
+        "height": 378,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q12.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 8
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pB",
+        "subtopic": "B.3 Gas laws"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q13",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.4 Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Recognising a Carnot cycle",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "A Carnot cycle consists of two reversible isothermal processes joined by two reversible adiabatic processes. On a P–V diagram the adiabats are steeper than the isotherms. Identify the diagram with this pair of each type; the official key selects C.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q13",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 13,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q13-p8.webp",
+        "width": 802,
+        "height": 556,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q13.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 8
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q14",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.5 Current and circuits",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Equivalent resistance in three circuits",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Reduce each network using the series and parallel rules. The combinations give their smallest equivalent resistance for Q, then R, then P. This is the ordering Q, R, P in the supplied key.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q14",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 14,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q14-p9.webp",
+        "width": 846,
+        "height": 622,
+        "page": 9
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q14.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 9
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q15",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.5 Current and circuits",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Current produced by a charged moving belt",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "In one second the belt carries an area wv past the contact. Current is charge per second, I = σwv = (5.0 × 10⁻³)(0.60)(2.5) = 7.5 × 10⁻³ A = 7.5 mA.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q15",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 15,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q15-p10.webp",
+        "width": 853,
+        "height": 553,
+        "page": 10
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q15.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 10
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q16",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.5 Current and circuits",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Resistance after reshaping a conductor",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The material and volume stay constant. Increasing the length by a factor of four reduces the cross-sectional area by four. From R = ρL/A, resistance increases by 4 × 4 = 16, from 50 Ω to 800 Ω.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q16",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 16,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q16-p10.webp",
+        "width": 799,
+        "height": 478,
+        "page": 10
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q16.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 10
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q17",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.1 Simple harmonic motion",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Two springs connected in parallel",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Identical springs in parallel have an effective spring constant 2k. Since T = 2π√(m/k), keeping the same mass gives T₂/T₁ = 1/√2.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q17",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 17,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q17-p11.webp",
+        "width": 792,
+        "height": 995,
+        "page": 11
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q17.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 11
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q18",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.2 Wave model",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Reading period and amplitude from a wave graph",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The amplitude is the largest displacement from equilibrium, 5.0 nm, not the peak-to-peak displacement. The period is 4.0 ms, so f = 1/T = 250 Hz.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q18",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 18,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q18-p12.webp",
+        "width": 870,
+        "height": 657,
+        "page": 12
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q18.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 12
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q19",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.1 Simple harmonic motion",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Speed at a specified displacement in SHM",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The distance between the turning points is b, so A = b/2. Halfway from equilibrium to a turning point, x = A/2. Use v = ω√(A² − x²) with ω = 2πf to obtain v = (√3/2)πfb.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q19",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 19,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q19-p13.webp",
+        "width": 867,
+        "height": 529,
+        "page": 13
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q19.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 13
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q20",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.3 Wave phenomena",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Refraction through parallel layers",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Measure angles from the normal. The 50° angle to the surface corresponds to 40° to the normal. Snell’s law gives (5/3)sin 40° = (4/3)sin θ, so θ ≈ 53°.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q20",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 20,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q20-p14.webp",
+        "width": 830,
+        "height": 704,
+        "page": 14
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q20.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 14
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q21",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.3 Wave phenomena",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Double-slit fringes and the diffraction envelope",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "At small angles, the interference-fringe spacing is approximately λ/d and the first diffraction minimum is at λ/b. Reading these two angular scales separately from the graph gives λ/d = 0.01 and λ/b = 0.1.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q21",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 21,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q21-p15.webp",
+        "width": 855,
+        "height": 732,
+        "page": 15
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q21.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 15
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q22",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.4 Standing waves and resonance",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Fifth harmonic in a pipe closed at one end",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a pipe closed at one end, the allowed harmonics are odd and L = nλ/4. At the fifth harmonic, λ = 4L/5.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q22",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 22,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q22-p15.webp",
+        "width": 657,
+        "height": 348,
+        "page": 15
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q22.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 15
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q23",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.3 Wave phenomena",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Number of maxima from a diffraction grating",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The slit separation is d = 1/(400000) = 2.5 × 10⁻⁶ m. With d sin θ = nλ and sin θ ≤ 1, the maximum order is 4. Count four maxima on each side plus the central maximum: 9.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q23",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 23,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q23-p16.webp",
+        "width": 721,
+        "height": 279,
+        "page": 16
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q23.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 16
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q24",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.1 Gravitational fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Comparing gravitational fields at planetary surfaces",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Surface gravity is proportional to M/R². The smaller planet has mass M_E/18 and radius R_E/3, so g_P/g_E = (1/18)/(1/9) = 1/2.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q24",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 24,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q24-p16.webp",
+        "width": 829,
+        "height": 382,
+        "page": 16
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q24.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 16
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q25",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.1 Gravitational fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Gravitational potential above Earth’s surface",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Outside Earth, V = −GM/(R + d), taking zero potential at infinity. At d = 0 the potential is finite and negative; as d increases it approaches zero from below with a decreasing positive gradient. This corresponds to A.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q25",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 25,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q25-p17.webp",
+        "width": 846,
+        "height": 656,
+        "page": 17
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q25.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 17
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q26",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.2 Electric and magnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Fundamental units of μ₀ε₀",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The electromagnetic wave relation is c² = 1/(μ₀ε₀). Therefore μ₀ε₀ has units 1/c² = s² m⁻², expressed in fundamental SI units.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q26",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 26,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q26-p17.webp",
+        "width": 538,
+        "height": 210,
+        "page": 17
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q26.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 17
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q27",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.2 Electric and magnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Electric field from a potential gradient",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The magnitude of a uniform electric field is the potential change divided by separation. Convert 20 kV to 20000 V and 5.0 cm to 0.050 m: E = 20000/0.050 = 4.0 × 10⁵ N C⁻¹.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q27",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 27,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q27-p18.webp",
+        "width": 836,
+        "height": 514,
+        "page": 18
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q27.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 18
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q28",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Magnetic field from the force on a current-carrying wire",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a perpendicular wire, F = BIL. Use the changes: B = ΔF/(LΔI) = (4.0 × 10⁻³)/(0.32 × 5.0) = 2.5 × 10⁻³ T = 2.5 mT.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q28",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 28,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q28-p18.webp",
+        "width": 793,
+        "height": 366,
+        "page": 18
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q28.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 18
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q29",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Magnetic forces on a current loop",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Conventional current is opposite to the motion of negative charge carriers. Applying F = IL × B around the loop gives radial outward forces, so the loop’s diameter tends to increase. There is no net torque rotating it in its own plane.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q29",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 29,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q29-p19.webp",
+        "width": 881,
+        "height": 526,
+        "page": 19
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q29.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 19
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q30",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.1 Structure of the atom",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Evidence that electric charge is quantised",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Millikan’s oil-drop experiment measured charges that were integer multiples of a common smallest charge. This established experimental evidence for quantisation of electric charge.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q30",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 30,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q30-p19.webp",
+        "width": 628,
+        "height": 209,
+        "page": 19
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q30.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 19
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q31",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.4 Induction",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Changing the speed of an AC generator",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a rotating coil, the peak emf is proportional to angular speed and the period is inversely proportional to it. Reducing the speed to 3/4 of the original reduces 10 V to 7.5 V and multiplies the original period by 4/3, giving about 1.1 ms.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q31",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 31,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q31-p20.webp",
+        "width": 848,
+        "height": 727,
+        "page": 20
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q31.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 20
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q32",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.1 Structure of the atom",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Nuclear notation for an ion",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The atomic number is the number of protons, 53. The mass number is protons plus neutrons, 53 + 89 = 142. Changing the number of electrons changes the ionic charge but not the nuclear notation.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q32",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 32,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q32-p20.webp",
+        "width": 398,
+        "height": 377,
+        "page": 20
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q32.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 20
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q33",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.1 Structure of the atom",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Nuclear density and nucleon number",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Nuclear mass is approximately proportional to nucleon number A, while nuclear radius is proportional to A^(1/3). Volume is therefore proportional to A as well, giving an approximately constant nuclear density.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q33",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 33,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q33-p21.webp",
+        "width": 850,
+        "height": 601,
+        "page": 21
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q33.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q34",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.2 Quantum physics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Maximum speed of a photoelectron",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The photoelectric equation gives maximum kinetic energy E − Φ. Set ½m_e v_max² = E − Φ and solve: v_max = √[2(E − Φ)/m_e].",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q34",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 34,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q34-p21.webp",
+        "width": 760,
+        "height": 454,
+        "page": 21
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q34.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q35",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.2 Quantum physics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Changes to a photon in Compton scattering",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "In Compton scattering the photon transfers energy to the electron, so its wavelength increases and λ/λ₀ > 1. Every photon in vacuum obeys λf = c, before and after scattering. Therefore (λf)/(λ₀f₀) = 1, giving option A.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q35",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 35,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q35-p22.webp",
+        "width": 843,
+        "height": 425,
+        "page": 22
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q35.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 22
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q36",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.3 Radioactive decay",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Deflection of radioactive emissions",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Alpha and beta particles carry electric charge, so both electric and magnetic fields can deflect them. Gamma photons are uncharged, so they are not deflected by these fields.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q36",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 36,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q36-p22.webp",
+        "width": 643,
+        "height": 368,
+        "page": 22
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q36.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 22
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q37",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.3 Radioactive decay",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Decay sequence that produces an isotope",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "An isotope must retain the same proton number. One alpha decay lowers the proton number by 2 and mass number by 4; two beta-minus decays raise the proton number by 2 in total. The final proton number is restored but the mass number differs.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q37",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 37,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q37-p22.webp",
+        "width": 524,
+        "height": 258,
+        "page": 22
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q37.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 22
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q38",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.4 Fission",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Choosing a nuclear reactor moderator",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "A moderator slows fast neutrons through collisions while absorbing relatively few of them. Water is a suitable moderator. Control-rod materials instead absorb neutrons to regulate the chain reaction.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q38",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 38,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q38-p23.webp",
+        "width": 609,
+        "height": 209,
+        "page": 23
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q38.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 23
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q39",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.4 Fission",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Neutron balance in a steady chain reaction",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a steady chain reaction, exactly one of the four emitted neutrons per fission must cause the next fission on average. Thus three must be absorbed or lost: N_c + N_l = 3. Of the listed pairs, 2 and 1 satisfy this condition.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q39",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 39,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q39-p23.webp",
+        "width": 840,
+        "height": 485,
+        "page": 23
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q39.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 23
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz1-1a-q40",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.5 Fusion and stars",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Distance from a stellar parallax angle",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Using parallax in arc-seconds, distance in parsecs is d = 1/p. For p = 1 × 10⁻² arc-second, d = 100 pc.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q40",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6707",
+    "originalQuestionNumber": 40,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1a-q40-p23.webp",
+        "width": 884,
+        "height": 347,
+        "page": 23
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1a-q40.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a.pdf",
+      "page": 23
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz1-1b-q01",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.1 Thermal energy transfers",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 6,
+    "minutes": 12,
+    "paper": "Paper 1B",
+    "prompt": "Density measurements, uncertainty and water temperature",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Calculate density from mass divided by volume, and propagate fractional uncertainties for the quotient. Compare the resulting interval with the temperature-dependent density data, keeping the reading technique and uncertainty reasoning separate. Use the original marking points below for each subpart.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q1",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6708",
+    "originalQuestionNumber": 1,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q01-p3.webp",
+        "width": 885,
+        "height": 1173,
+        "page": 3
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q01-p4.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1b-q01-p4.webp",
+        "width": 1305,
+        "height": 623,
+        "page": 4
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1b.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1b-markscheme.pdf",
+      "page": 4
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz1-1b-q02",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.3 Wave phenomena",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 8,
+    "minutes": 16,
+    "paper": "Paper 1B",
+    "prompt": "Refraction experiment with a semicircular glass block",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "A ray entering along a radius meets the curved surface normally. Use Snell’s law at the flat surface, process the sine values, and interpret the best-fit gradient to obtain the refractive index. Check the graph and the measurement uncertainties against the supplied marking points.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q2",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6708",
+    "originalQuestionNumber": 2,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q02-p5.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 5
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q02-p6.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 6
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q02-p8.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1b-q02-p5.webp",
+        "width": 1305,
+        "height": 541,
+        "page": 5
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1b.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1b-markscheme.pdf",
+      "page": 5
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz1-1b-q03",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.2 Electric and magnetic fields",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 6,
+    "minutes": 12,
+    "paper": "Paper 1B",
+    "prompt": "Measuring Earth’s horizontal magnetic field with coils",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Compare field uniformity over the length of the magnetic needle, not just the field at the centre. Orient the apparatus so the coil field is perpendicular to Earth’s horizontal field, then relate their magnitudes to the needle’s deflection. The official scheme gives the accepted experimental explanations.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q3",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6708",
+    "originalQuestionNumber": 3,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q03-p10.webp",
+        "width": 830,
+        "height": 1218,
+        "page": 10
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q03-p11.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 11
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/1b-q03-p12.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 12
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/1b-q03-p6.webp",
+        "width": 1311,
+        "height": 550,
+        "page": 6
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1b.pdf",
+      "page": 10
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-1b-markscheme.pdf",
+      "page": 6
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q01",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.3 Work, energy and power",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 6,
+    "minutes": 10,
+    "paper": "Paper 2",
+    "prompt": "Work, force–distance graphs and car motion",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Area under a force–distance graph is work done. Relate the net work to the change in kinetic energy and use the force balance or power relation for the later motion. Retain units and distinguish instantaneous graph values from integrated areas.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q1",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 1,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q01-p3.webp",
+        "width": 885,
+        "height": 1173,
+        "page": 3
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q01-p4.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q01-p4.webp",
+        "width": 1305,
+        "height": 559,
+        "page": 4
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 4
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pA",
+        "subtopic": "A.2 Forces and momentum"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q02",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.1 Gravitational fields",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 6,
+    "minutes": 10,
+    "paper": "Paper 2",
+    "prompt": "Orbital motion of Venus and gravitational relationships",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "For a near-circular orbit use v = 2πr/T and GM/r² = v²/r. These combine into the period–radius relationship. Convert all times and lengths to SI units before substituting, and follow the official scheme for the required derived quantities.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q2",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 2,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q02-p6.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 6
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q02-p5.webp",
+        "width": 1305,
+        "height": 770,
+        "page": 5
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 6
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 5
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q03",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.1 Structure of the atom",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 8,
+    "minutes": 14,
+    "paper": "Paper 2",
+    "prompt": "Rutherford scattering, nuclear structure and gamma photons",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Use energy conservation to relate an alpha particle’s initial kinetic energy to its electrical potential energy at closest approach. For gamma transitions, photon energy is hf and corresponds to the change in nuclear energy. The supplied marking points specify the required nuclear interpretations.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q3",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 3,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q03-p7.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 7
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q03-p8.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q03-p6.webp",
+        "width": 1305,
+        "height": 776,
+        "page": 6
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q03-p7.webp",
+        "width": 1305,
+        "height": 269,
+        "page": 7
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 7
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 6
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pE",
+        "subtopic": "E.2 Quantum physics"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q04",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.4 Thermodynamics",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 5,
+    "minutes": 9,
+    "paper": "Paper 2",
+    "prompt": "Microstates, entropy and energy distributions",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Count the ways distinguishable particles can occupy each energy distribution, rather than counting only the drawn energy levels. The more probable macrostate has the greater number of microstates. Connect entropy to the multiplicity using S = k_B ln Ω where required.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q4",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 4,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q04-p10.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 10
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q04-p8.webp",
+        "width": 1305,
+        "height": 375,
+        "page": 8
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 10
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 8
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q05",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.5 Doppler effect",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 9,
+    "minutes": 15,
+    "paper": "Paper 2",
+    "prompt": "Doppler effect and the frequency of detected sound",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "A lower detected frequency means the detector moves away from the stationary source. Use the moving-observer Doppler relation with consistent signs. The source wavelength in the air is set by the sound speed and source frequency, independently of the detector’s motion.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q5",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 5,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q05-p11.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 11
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q05-p12.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 12
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q05-p9.webp",
+        "width": 1305,
+        "height": 809,
+        "page": 9
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q05-p10.webp",
+        "width": 1305,
+        "height": 315,
+        "page": 10
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 11
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 9
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pC",
+        "subtopic": "C.2 Wave model"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q06",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 10,
+    "minutes": 17,
+    "paper": "Paper 2",
+    "prompt": "Acceleration and deflection of an electron in electric fields",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "First use eV = ½m_e v² for the accelerating potential. Resolve the later motion into an unchanged component and a component accelerated by the electric force. Use the time spent between the plates to calculate the displacement and subsequent trajectory.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q6",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 6,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q06-p13.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 13
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q06-p14.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 14
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q06-p11.webp",
+        "width": 1305,
+        "height": 647,
+        "page": 11
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q06-p12.webp",
+        "width": 1305,
+        "height": 732,
+        "page": 12
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 13
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 11
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pD",
+        "subtopic": "D.2 Electric and magnetic fields"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q07",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.5 Galilean and special relativity",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 6,
+    "minutes": 10,
+    "paper": "Paper 2",
+    "prompt": "Spacetime intervals and simultaneity in different frames",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Read coordinates from the spacetime diagram and evaluate the invariant interval using a consistent sign convention. Events that are simultaneous in one frame need not be simultaneous in another. Use the geometry of the tilted axes or Lorentz transformations as required.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q7",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 7,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q07-p15.webp",
+        "width": 885,
+        "height": 1217,
+        "page": 15
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q07-p16.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 16
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q07-p13.webp",
+        "width": 1305,
+        "height": 785,
+        "page": 13
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q07-p14.webp",
+        "width": 1305,
+        "height": 111,
+        "page": 14
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 15
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 13
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q08",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.2 Greenhouse effect",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 20,
+    "minutes": 34,
+    "paper": "Paper 2",
+    "prompt": "Earth’s radiation balance, solar fusion and stellar evolution",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "For Earth’s energy balance distinguish the solar constant from the average over a sphere, apply albedo, and use emitted power per area proportional to T⁴. The later parts address fusion and positions on the H–R diagram; keep the stellar deductions separate from the atmospheric model. See the matching scheme for all subparts.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q8",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 8,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q08-p17.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 17
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q08-p18.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 18
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q08-p19.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 19
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q08-p20.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 20
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q08-p15.webp",
+        "width": 1305,
+        "height": 733,
+        "page": 15
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q08-p16.webp",
+        "width": 1311,
+        "height": 450,
+        "page": 16
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q08-p17.webp",
+        "width": 1310,
+        "height": 782,
+        "page": 17
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q08-p18.webp",
+        "width": 1305,
+        "height": 372,
+        "page": 18
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 17
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 15
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pE",
+        "subtopic": "E.5 Fusion and stars"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz1-2-q09",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.1 Simple harmonic motion",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 20,
+    "minutes": 34,
+    "paper": "Paper 2",
+    "prompt": "Oscillating magnet, spring energy and electromagnetic induction",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Use the static equilibrium extension to find elastic energy, then apply SHM relationships between position, acceleration, speed, and period. For the coil, connect induced emf to the rate of change of magnetic flux and use Lenz’s law for direction. The original scheme includes the required graphs and reasoning.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ1 · Q9",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ1",
+    "examCode": "2225-6709",
+    "originalQuestionNumber": 9,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q09-p21.webp",
+        "width": 885,
+        "height": 1220,
+        "page": 21
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q09-p22.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 22
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q09-p23.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 23
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/questions/2-q09-p24.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 24
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q09-p19.webp",
+        "width": 1311,
+        "height": 512,
+        "page": 19
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q09-p20.webp",
+        "width": 1310,
+        "height": 639,
+        "page": 20
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q09-p21.webp",
+        "width": 1305,
+        "height": 461,
+        "page": 21
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q09-p22.webp",
+        "width": 1311,
+        "height": 496,
+        "page": 22
+      },
+      {
+        "path": "papers/physics/2025-may/tz1/markschemes/2-q09-p23.webp",
+        "width": 1311,
+        "height": 777,
+        "page": 23
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz1/paper-2-markscheme.pdf",
+      "page": 19
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pD",
+        "subtopic": "D.4 Induction"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q01",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.1 Kinematics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Initial speed of a ball thrown upwards",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Take upwards as positive: the displacement is −50 m, the acceleration is −g and time is 5.0 s. From s = ut + ½at², u = [−50 + ½g(5.0)²]/5.0 ≈ 15 m s⁻¹.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q1",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 1,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q01-p3.webp",
+        "width": 844,
+        "height": 277,
+        "page": 3
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q01.webp",
+        "width": 112,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q02",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.1 Kinematics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Displacement in successive seconds",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The acceleration is constant and the object starts from rest, so displacement is proportional to t². The total displacement after two seconds is 4 × 1.5 = 6.0 m. During the second second alone it is 6.0 − 1.5 = 4.5 m.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q2",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 2,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q02-p3.webp",
+        "width": 851,
+        "height": 448,
+        "page": 3
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q02.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q03",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Effect of air resistance on projectile motion",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Air resistance reduces the maximum height and the horizontal velocity. At the highest point the velocity, and therefore drag, is horizontal, so the vertical acceleration remains g downward. The reduced horizontal motion also makes the impact direction steeper. All three statements are correct.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q3",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 3,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q03-p4.webp",
+        "width": 873,
+        "height": 739,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q03.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 4
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pA",
+        "subtopic": "A.1 Kinematics"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q04",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Free-body diagram on a banked road",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Weight acts vertically downwards and the normal reaction is perpendicular to the road. At the maximum speed, the tendency is to slip up the bank, so friction acts down the slope. The diagram satisfying all three directions is D.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q4",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 4,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q04-p5.webp",
+        "width": 883,
+        "height": 776,
+        "page": 5
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q04.webp",
+        "width": 114,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q05",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Terminal speed and the radius of a sphere",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For Stokes flow, drag is proportional to rv, while weight minus upthrust is proportional to r³ for the same materials. Balancing forces at terminal speed gives v_t proportional to r². Doubling the radius gives 4v.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q5",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 5,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q05-p5.webp",
+        "width": 864,
+        "height": 287,
+        "page": 5
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q05.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q06",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.4 Rigid body mechanics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Number of revolutions of an accelerating wheel",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For constant angular acceleration from rest, the mean angular velocity is half the final value. Angular displacement is ½(5π)(4.0) = 10π radians, or 5 complete revolutions.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q6",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 6,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q06-p6.webp",
+        "width": 873,
+        "height": 277,
+        "page": 6
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q06.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 6
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q07",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.4 Rigid body mechanics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Units of angular impulse",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Angular impulse is torque multiplied by time, or the change in angular momentum. Its SI unit is N m s, equivalent to kg m² s⁻¹.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q7",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 7,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q07-p6.webp",
+        "width": 360,
+        "height": 210,
+        "page": 6
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q07.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 6
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q08",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.4 Rigid body mechanics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Rotational and translational energy of a moving car",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Each wheel has rotational energy ½Iω² = ¼mv² because I = ½mR² and ω = v/R. Four wheels therefore have total rotational energy mv². Divide by the car’s translational energy ½Mv² to obtain 2m/M.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q8",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 8,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q08-p6.webp",
+        "width": 879,
+        "height": 469,
+        "page": 6
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q08.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 6
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q09",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.1 Thermal energy transfers",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Power radiated by two black bodies",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Black-body power is proportional to R²T⁴. Since T_X = 2T_Y and P_Y = 2P_X, R_Y² = 2 × 16R² = 32R². Thus R_Y = 4√2 R.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q9",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 9,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q09-p7.webp",
+        "width": 849,
+        "height": 306,
+        "page": 7
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q09.webp",
+        "width": 113,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 7
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q10",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.2 Greenhouse effect",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Incoming solar intensity and albedo",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "An albedo of 0.25 reflects one quarter of the incoming radiation. The remaining intensity is (1 − 0.25)S = 3S/4. The Sun is directly overhead here; the global-average factor of 1/4 does not apply.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q10",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 10,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q10-p7.webp",
+        "width": 826,
+        "height": 390,
+        "page": 7
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q10.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 7
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q11",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.3 Gas laws",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Pressure and density of gases at the same temperature",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For an ideal gas, P = Nk_BT/V. Equal numbers of molecules in equal volumes at equal temperatures give equal pressures. More massive molecules give more mass in the same volume, so the densities differ.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q11",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 11,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q11-p7.webp",
+        "width": 817,
+        "height": 316,
+        "page": 7
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q11.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 7
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q12",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.4 Thermodynamics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Identifying an isothermal stage on a P–V cycle",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The isothermal curve is less steep than an adiabat through the same region. Compression during the isothermal stage means volume decreases along Z. Following the rest of the cycle then gives the clockwise direction, option D.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q12",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 12,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q12-p8.webp",
+        "width": 850,
+        "height": 713,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q12.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 8
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q13",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.5 Current and circuits",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Heating power and wire length",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Use R = V²/P. The first wire has resistance 200²/500 = 80 Ω and the second has resistance 400²/2000 = 80 Ω. Same material and cross-section mean R is proportional to length, so the second length is L.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q13",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 13,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q13-p8.webp",
+        "width": 868,
+        "height": 366,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q13.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 8
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q14",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.5 Current and circuits",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Current ratio in a resistor network",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Let the potential difference across the whole network be V and each resistance be R. The top branch contains only X, so I_X = V/R. The bottom branch has R in series with two parallel resistors, giving R + R/2 = 3R/2. Its current is 2V/(3R), which splits equally, so I_Y = V/(3R). Therefore I_X/I_Y = 3, option D.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q14",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 14,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q14-p9.webp",
+        "width": 608,
+        "height": 597,
+        "page": 9
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q14.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 9
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q15",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.1 Simple harmonic motion",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Acceleration–displacement graph for SHM",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Simple harmonic motion satisfies a = −ω²x. The acceleration–displacement graph is therefore a straight line through the origin with negative gradient.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q15",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 15,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q15-p9.webp",
+        "width": 828,
+        "height": 561,
+        "page": 9
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q15.webp",
+        "width": 117,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 9
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q16",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.1 Simple harmonic motion",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Maximum elastic potential energy in SHM",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The largest spring energy is E_max = ½kA². Doubling the amplitude quadruples it; changing the mass does not change this expression for the same spring. The new value is 4E.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q16",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 16,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q16-p10.webp",
+        "width": 813,
+        "height": 310,
+        "page": 10
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q16.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 10
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q17",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.2 Wave model",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Average particle speed in a transverse wave",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "In a complete oscillation a particle travels a total distance 4A. The graph gives A = 4.0 cm and T = 20 ms, so its average speed is 4(0.040)/0.020 = 8 m s⁻¹. Transverse particle motion is perpendicular to wave travel.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q17",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 17,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q17-p10.webp",
+        "width": 873,
+        "height": 700,
+        "page": 10
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q17.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 10
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q18",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.2 Wave model",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Frequency and nature of ultraviolet radiation",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Ultraviolet radiation is an electromagnetic wave and is transverse. Its frequency is of order 10¹⁵ Hz. A value around 10⁻⁷ is a possible wavelength in metres, not a frequency in hertz.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q18",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 18,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q18-p11.webp",
+        "width": 708,
+        "height": 295,
+        "page": 11
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q18.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 11
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q19",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.4 Standing waves and resonance",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Phase in a fifth-harmonic standing wave",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a pipe closed at both ends, the fifth harmonic has displacement nodes every L/5 = 5 cm. Points in neighbouring loops oscillate in antiphase. The positions 2 cm and 7 cm are in adjacent loops and differ in phase by π.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q19",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 19,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q19-p11.webp",
+        "width": 833,
+        "height": 254,
+        "page": 11
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q19.webp",
+        "width": 149,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 11
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q20",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.1 Simple harmonic motion",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Lightly damped oscillations",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For a fixed lightly damped system, amplitude gradually decays but the oscillation frequency remains constant in time. Its damped frequency is slightly below the undamped natural frequency, so exact equality is not the correct statement.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q20",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 20,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q20-p11.webp",
+        "width": 676,
+        "height": 212,
+        "page": 11
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q20.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 11
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q21",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.1 Gravitational fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Speed of a planet in a circular orbit",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For an orbit around the same star, v = √(GM_star/r), independent of the planet’s own mass. Increasing the orbital radius to 1.5R gives v₂/v₁ = √(1/1.5) = √(2/3).",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q21",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 21,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q21-p12.webp",
+        "width": 860,
+        "height": 298,
+        "page": 12
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q21.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 12
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q22",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.2 Electric and magnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Resultant electric field between two positive charges",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The two fields at P point in opposite directions. Apply E = kQ/r² to each charge using the distances shown, then subtract. The resultant magnitude is kQ/(2x²), directed to the right.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q22",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 22,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q22-p12.webp",
+        "width": 867,
+        "height": 609,
+        "page": 12
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q22.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 12
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q23",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.2 Electric and magnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Magnetic field lines between like poles",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Outside a bar magnet, field lines leave a north pole and enter a south pole. They do not cross or connect one north pole to another. The field lines between the facing north poles curve away from the central region; diagram C obeys these rules.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q23",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 23,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q23-p13.webp",
+        "width": 798,
+        "height": 451,
+        "page": 13
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q23.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 13
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q24",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Electric field and proton kinetic energy",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The potential difference is 450 − 200 = 250 V across 0.50 m, so E = 500 N C⁻¹. A proton moving to the higher potential gains electrical potential energy, so its kinetic energy decreases.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q24",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 24,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q24-p13.webp",
+        "width": 875,
+        "height": 362,
+        "page": 13
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q24.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 13
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pD",
+        "subtopic": "D.2 Electric and magnetic fields"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q25",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Identifying particles from magnetic deflection",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Use the magnetic-force direction for positive and negative charges. The undeflected path is the neutron. The two oppositely curved paths are the proton and electron, giving Q: proton, R: neutron, S: electron.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q25",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 25,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q25-p14.webp",
+        "width": 812,
+        "height": 604,
+        "page": 14
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q25.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 14
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q26",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Force on a movable current-carrying rod",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For the rod to move right with the field directed out of the page, the conventional current through the rod must be upward. This is an anti-clockwise current around the circuit. The wire is perpendicular to the field, so the initial force is BIL sin 90°.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q26",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 26,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q26-p15.webp",
+        "width": 871,
+        "height": 602,
+        "page": 15
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q26.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 15
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q27",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.2 Electric and magnetic fields",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Force between two parallel current-carrying wires",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Force per unit length is proportional to I_X I_Y/r. Doubling one current and doubling the separation cancel. Reversing both currents preserves their opposite directions, so the force remains repulsive with magnitude F.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q27",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 27,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q27-p15.webp",
+        "width": 880,
+        "height": 409,
+        "page": 15
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q27.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 15
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q28",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.4 Induction",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Magnetic field from an induced average emf",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "A 180° rotation changes the flux from BA to −BA, so the magnitude of the flux change is 2BA. From ε_avg = 2BA/Δt, B = (2.0 × 10⁻⁶)(2.0)/[2(4.0 × 10⁻⁴)] = 5.0 mT.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q28",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 28,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q28-p16.webp",
+        "width": 861,
+        "height": 299,
+        "page": 16
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q28.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 16
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q29",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.4 Induction",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Coil rotation and the induced emf graph",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "An emf is induced only when the rotation changes magnetic flux through the coil. Rotation about the field direction does not do that. The orientation and quarter-cycle variation shown correspond to a π/2 rotation about XX′, option A.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q29",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 29,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q29-p16.webp",
+        "width": 869,
+        "height": 676,
+        "page": 16
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q29.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 16
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q30",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.4 Induction",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Effect of smaller oscillation amplitude on induced current",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The period of the mass–spring motion does not depend on amplitude in the SHM model. A smaller amplitude reduces the magnet’s speed and the rate of flux change, reducing the induced-current amplitude while retaining the period. The matching trace is D.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q30",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 30,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q30-p17.webp",
+        "width": 862,
+        "height": 818,
+        "page": 17
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q30-p18.webp",
+        "width": 790,
+        "height": 832,
+        "page": 18
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q30.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 17
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pC",
+        "subtopic": "C.1 Simple harmonic motion"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q31",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.3 Gas laws",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Masses of equal-volume gas samples",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Equal P, V, and T imply equal numbers of molecules. Compare molecular masses using the given nuclides: CH₄ = 16, H₂O = 18, and CO₂ and N₂O = 44. Methane therefore has the smallest mass.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q31",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 31,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q31-p19.webp",
+        "width": 802,
+        "height": 327,
+        "page": 19
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q31.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 19
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pE",
+        "subtopic": "E.1 Structure of the atom"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q32",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.1 Structure of the atom",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Longest-wavelength photon from atomic transitions",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For an emitted photon, E = hc/λ. The longest wavelength corresponds to the smallest downward energy change. In the given energy-level diagram this is transition E₄.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q32",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 32,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q32-p19.webp",
+        "width": 617,
+        "height": 465,
+        "page": 19
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q32.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 19
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q33",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.1 Structure of the atom",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Distance of closest approach in Rutherford scattering",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "An alpha particle accelerated through V gains kinetic energy 2eV. At closest approach to gold this equals k(2e)(79e)/r. Cancelling 2e gives r = 79ke/V, with V = 7.7 × 10⁶ V.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q33",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 33,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q33-p20.webp",
+        "width": 857,
+        "height": 387,
+        "page": 20
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q33.webp",
+        "width": 148,
+        "height": 35,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 20
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q34",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.2 Quantum physics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Work functions from photoelectric graphs",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "In E_k,max = hf − Φ, the frequency-axis intercept is the threshold frequency Φ/h. Surface Y has the larger threshold frequency in the graph, so it has the larger work function. Intensity does not set the threshold frequency.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q34",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 34,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q34-p20.webp",
+        "width": 878,
+        "height": 598,
+        "page": 20
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q34.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 20
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q35",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.2 Quantum physics",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Radiation intensity and photon arrival rate",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Intensity is photon arrival rate per unit area multiplied by energy per photon. Doubling wavelength halves hc/λ, while doubling the arrival rate cancels that change. The intensity remains I.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q35",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 35,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q35-p21.webp",
+        "width": 838,
+        "height": 298,
+        "page": 21
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q35.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q36",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.5 Fusion and stars",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Fusion and fission energy per unit fuel mass",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Energy released is proportional to the mass defect. Compare per unit fuel mass: (0.024/5)/(0.48/235) = 2.35. This is different from comparing energy per single reaction.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q36",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 36,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q36-p21.webp",
+        "width": 865,
+        "height": 357,
+        "page": 21
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q36.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pE",
+        "subtopic": "E.4 Fission"
+      }
+    ],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q37",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.3 Radioactive decay",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Properties of gamma radiation",
+    "answer": "A — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Gamma photons travel at c in a vacuum, faster than massive beta particles, and are more penetrating. Their ionising ability is lower, not greater. Thus statements I and II are correct.",
+    "steps": [
+      {
+        "text": "Select option A (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q37",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 37,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q37-p21.webp",
+        "width": 603,
+        "height": 368,
+        "page": 21
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q37.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 0
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q38",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.3 Radioactive decay",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Decay constant from sample mass and activity",
+    "answer": "C — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "Find the number of nuclei using N = (4.4/222)N_A ≈ 1.19 × 10²². Activity is A = λN, so λ = (2.5 × 10¹⁶)/N ≈ 2.1 × 10⁻⁶ s⁻¹.",
+    "steps": [
+      {
+        "text": "Select option C (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q38",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 38,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q38-p22.webp",
+        "width": 615,
+        "height": 256,
+        "page": 22
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q38.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 22
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 2
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q39",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.4 Fission",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Role of a moderator in a nuclear reactor",
+    "answer": "D — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "The moderator reduces neutrons’ kinetic energy through collisions, increasing the chance of thermal-neutron-induced fission. It is distinct from control rods, which absorb neutrons, and the coolant, which transports energy.",
+    "steps": [
+      {
+        "text": "Select option D (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q39",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 39,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q39-p22.webp",
+        "width": 585,
+        "height": 212,
+        "page": 22
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q39.webp",
+        "width": 150,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 22
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 3
+  },
+  {
+    "id": "physics-2025-may-tz2-1a-q40",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.5 Fusion and stars",
+    "type": "mcq",
+    "difficulty": "Unrated",
+    "marks": 1,
+    "minutes": 2,
+    "paper": "Paper 1A",
+    "prompt": "Stellar radius from apparent brightness",
+    "answer": "B — official answer from the supplied May 2025 mark scheme.",
+    "explanation": "For equal surface temperatures, apparent brightness is proportional to R²/d². Star Y is at half the distance and twice as bright, so 4R_Y²/R² = 2. Therefore R_Y = R/√2.",
+    "steps": [
+      {
+        "text": "Select option B (official answer key).",
+        "marks": 1
+      }
+    ],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q40",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6713",
+    "originalQuestionNumber": 40,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1a-q40-p22.webp",
+        "width": 884,
+        "height": 461,
+        "page": 22
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1a-q40.webp",
+        "width": 151,
+        "height": 34,
+        "page": 3
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a.pdf",
+      "page": 22
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1a-markscheme.pdf",
+      "page": 3
+    },
+    "additionalTopics": [],
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctOption": 1
+  },
+  {
+    "id": "physics-2025-may-tz2-1b-q01",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.5 Current and circuits",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 11,
+    "minutes": 22,
+    "paper": "Paper 1B",
+    "prompt": "Resistivity of a wire and propagated measurement uncertainty",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Reject the anomalous diameter reading with a justified reason before finding the mean. Use ρ = RA/L with A = πd²/4. In percentage uncertainty, the diameter contribution is doubled because area depends on d²; combine it with the resistance and length contributions as the scheme specifies.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q1",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6714",
+    "originalQuestionNumber": 1,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1b-q01-p3.webp",
+        "width": 885,
+        "height": 1173,
+        "page": 3
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1b-q01-p4.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1b-q01-p4.webp",
+        "width": 1295,
+        "height": 759,
+        "page": 4
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1b-q01-p5.webp",
+        "width": 1295,
+        "height": 576,
+        "page": 5
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1b.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1b-markscheme.pdf",
+      "page": 4
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz2-1b-q02",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.3 Gas laws",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 9,
+    "minutes": 18,
+    "paper": "Paper 1B",
+    "prompt": "Testing the ideal-gas relationship using a graph",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "At constant temperature for fixed gas, P = K/V, so a graph of P against 1/V should be linear. Process the missing reciprocal, plot with the correct scales, draw a best-fit line, and obtain K from its gradient. Use PV = Nk_BT for the later deductions.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q2",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6714",
+    "originalQuestionNumber": 2,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1b-q02-p5.webp",
+        "width": 828,
+        "height": 1204,
+        "page": 5
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1b-q02-p6.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 6
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/1b-q02-p8.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1b-q02-p6.webp",
+        "width": 1295,
+        "height": 774,
+        "page": 6
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/1b-q02-p7.webp",
+        "width": 1305,
+        "height": 527,
+        "page": 7
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1b.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-1b-markscheme.pdf",
+      "page": 6
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q01",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 8,
+    "minutes": 14,
+    "paper": "Paper 2",
+    "prompt": "Elastic collision of carts and impulse",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Check both momentum conservation and kinetic energies before and after the collision to establish elasticity. The average force follows from impulse divided by collision duration. Use the velocity–time information consistently for each cart.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q1",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 1,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q01-p3.webp",
+        "width": 885,
+        "height": 1176,
+        "page": 3
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q01-p4.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 4
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q01-p4.webp",
+        "width": 1305,
+        "height": 799,
+        "page": 4
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q01-p5.webp",
+        "width": 1305,
+        "height": 178,
+        "page": 5
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 3
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 4
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pA",
+        "subtopic": "A.3 Work, energy and power"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q02",
+    "subject": "physics",
+    "topicId": "pB",
+    "subtopic": "B.1 Thermal energy transfers",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 10,
+    "minutes": 17,
+    "paper": "Paper 2",
+    "prompt": "Thermal conduction, heating and thermodynamic energy changes",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Conduction transfers internal energy through interactions between particles and, in metals, mobile electrons. Use the temperature gradient and thermal conductivity for the rate of energy transfer. Apply the first and second laws carefully to the later heating and cooling situations.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q2",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 2,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q02-p5.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 5
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q02-p6.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 6
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q02-p7.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 7
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q02-p8.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 8
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q02-p6.webp",
+        "width": 1305,
+        "height": 805,
+        "page": 6
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q02-p7.webp",
+        "width": 1305,
+        "height": 382,
+        "page": 7
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 5
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 6
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pB",
+        "subtopic": "B.4 Thermodynamics"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q03",
+    "subject": "physics",
+    "topicId": "pD",
+    "subtopic": "D.3 Motion in electromagnetic fields",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 9,
+    "minutes": 15,
+    "paper": "Paper 2",
+    "prompt": "Alpha-particle motion between electric and magnetic fields",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "For the plates use E = ΔV/d and electric force qE with the alpha particle’s charge +2e. Find acceleration and motion using its mass. When a magnetic field is introduced, use the vector direction and magnitude of qv × B and compare it with the electric force.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q3",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 3,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q03-p9.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 9
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q03-p10.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 10
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q03-p8.webp",
+        "width": 1305,
+        "height": 769,
+        "page": 8
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q03-p9.webp",
+        "width": 1305,
+        "height": 136,
+        "page": 9
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 9
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 8
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pD",
+        "subtopic": "D.2 Electric and magnetic fields"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q04",
+    "subject": "physics",
+    "topicId": "pC",
+    "subtopic": "C.3 Wave phenomena",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 9,
+    "minutes": 15,
+    "paper": "Paper 2",
+    "prompt": "Coherence, interference and wavelength-dependent patterns",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Stable interference requires a constant phase difference. Connect path difference to constructive and destructive interference, and use the specified geometry to relate fringe position to wavelength. In the multi-wavelength part, identify which wavelengths meet the same interference condition.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q4",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 4,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q04-p11.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 11
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q04-p12.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 12
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q04-p10.webp",
+        "width": 1305,
+        "height": 794,
+        "page": 10
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q04-p11.webp",
+        "width": 1305,
+        "height": 134,
+        "page": 11
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 11
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 10
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q05",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.2 Quantum physics",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 8,
+    "minutes": 14,
+    "paper": "Paper 2",
+    "prompt": "Compton scattering, photon momentum and electron recoil",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "Compton scattering requires conservation of both energy and momentum. Use photon momentum p = h/λ and photon energy E = hc/λ, then find the energy transferred to the recoiling electron. Compare the evidence with the photoelectric effect using the requested physical argument.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q5",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 5,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q05-p13.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 13
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q05-p14.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 14
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q05-p12.webp",
+        "width": 1305,
+        "height": 585,
+        "page": 12
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 13
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 12
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q06",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.5 Galilean and special relativity",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 6,
+    "minutes": 10,
+    "paper": "Paper 2",
+    "prompt": "Spacecraft journey and spacetime transformations",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "The elapsed Earth-frame time is 50 years. At speed 0.60c, γ = 1.25, so the spacecraft’s proper time for that leg is 50/1.25 = 40 years. Use the appropriate frame and Lorentz transformation for the other events and diagram readings.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q6",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 6,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q06-p15.webp",
+        "width": 886,
+        "height": 1218,
+        "page": 15
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q06-p16.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 16
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q06-p13.webp",
+        "width": 1305,
+        "height": 792,
+        "page": 13
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q06-p14.webp",
+        "width": 1305,
+        "height": 799,
+        "page": 14
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q06-p15.webp",
+        "width": 1305,
+        "height": 362,
+        "page": 15
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 15
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 13
+    },
+    "additionalTopics": []
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q07",
+    "subject": "physics",
+    "topicId": "pE",
+    "subtopic": "E.5 Fusion and stars",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 20,
+    "minutes": 34,
+    "paper": "Paper 2",
+    "prompt": "Fusion, gas conditions and the Sun’s main-sequence lifetime",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "High core temperature allows energetic collisions and high density raises their rate, making fusion possible. Use the stated reaction chain and mass–energy relationship to estimate the released energy and fuel lifetime. The final rotational part uses angular speed and centripetal acceleration at the Sun’s equator.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q7",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 7,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q07-p17.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 17
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q07-p18.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 18
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q07-p19.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 19
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q07-p20.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 20
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q07-p16.webp",
+        "width": 1305,
+        "height": 811,
+        "page": 16
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q07-p17.webp",
+        "width": 1305,
+        "height": 571,
+        "page": 17
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 17
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 16
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pB",
+        "subtopic": "B.3 Gas laws"
+      },
+      {
+        "topicId": "pA",
+        "subtopic": "A.4 Rigid body mechanics"
+      }
+    ]
+  },
+  {
+    "id": "physics-2025-may-tz2-2-q08",
+    "subject": "physics",
+    "topicId": "pA",
+    "subtopic": "A.2 Forces and momentum",
+    "type": "structured",
+    "difficulty": "Unrated",
+    "marks": 20,
+    "minutes": 34,
+    "paper": "Paper 2",
+    "prompt": "Spacecraft collecting dust and a satellite orbit",
+    "answer": "The official answers and marking points for every subpart are reproduced below.",
+    "explanation": "The swept volume in time Δt is SvΔt, so the collected mass is ρSvΔt; account for momentum transfer as the craft gains mass. For the satellite parts use circular-orbit relationships, gravitational energy, and the measured height–time graph. Follow the official scheme for the separate orbit and rocket-burn deductions.",
+    "steps": [],
+    "source": "past-paper",
+    "sourceName": "May 2025 · Physics HL · TZ2 · Q8",
+    "year": 2025,
+    "examSession": "May 2025",
+    "timeZone": "TZ2",
+    "examCode": "2225-6715",
+    "originalQuestionNumber": 8,
+    "questionImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q08-p21.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 21
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q08-p22.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 22
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q08-p23.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 23
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q08-p24.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 24
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/questions/2-q08-p25.webp",
+        "width": 885,
+        "height": 1218,
+        "page": 25
+      }
+    ],
+    "markSchemeImages": [
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q08-p18.webp",
+        "width": 1305,
+        "height": 808,
+        "page": 18
+      },
+      {
+        "path": "papers/physics/2025-may/tz2/markschemes/2-q08-p19.webp",
+        "width": 1311,
+        "height": 285,
+        "page": 19
+      }
+    ],
+    "questionDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2.pdf",
+      "page": 21
+    },
+    "markSchemeDocument": {
+      "path": "papers/physics/2025-may/tz2/paper-2-markscheme.pdf",
+      "page": 18
+    },
+    "additionalTopics": [
+      {
+        "topicId": "pD",
+        "subtopic": "D.1 Gravitational fields"
+      }
+    ]
+  }
+]

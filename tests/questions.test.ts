@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import katex from 'katex';
-import { starterQuestions } from '../src/data/questions';
+import { starterQuestions } from './fixtures/studyQuestions';
 import { topics } from '../src/data/syllabus';
 import {
   filterQuestions,
@@ -22,8 +22,8 @@ const base: Filters = {
 };
 const original = starterQuestions[0];
 
-describe('Current-syllabus question bank', () => {
-  it('has 30 valid questions and coverage of every subject topic', () => {
+describe('Study tool fixtures (excluded from the production question bank)', () => {
+  it('has valid fixtures covering every subject topic', () => {
     expect(starterQuestions).toHaveLength(30);
     for (const q of starterQuestions) expect(() => validateQuestion(q)).not.toThrow();
     for (const subject of ['math', 'physics'] as const)

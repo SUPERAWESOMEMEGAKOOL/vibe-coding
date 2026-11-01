@@ -26,7 +26,7 @@ Browser tests use `/usr/bin/chromium` in this cloud environment. Set the `execut
 ## Study workflow
 
 - Switch subjects using the sidebar dropdown.
-- Filter by topic, subtopic, difficulty, source, or question type; search concepts and source years.
+- Filter by topic, subtopic, paper, time zone, difficulty, source, or question type; search concepts and exam codes.
 - Click a Physics MCQ option for instant correct/incorrect feedback. Retry or open **Answer & explanation** for the worked solution and marking points.
 - Save questions for later, or add them to a custom practice paper.
 - Track mistakes in the topic-grouped **Mistake notebook**, add reflections, and use **Feedback** to decide what to revisit next.
@@ -36,13 +36,25 @@ Browser tests use `/usr/bin/chromium` in this cloud environment. Set the `execut
 
 ## Question sources and syllabus scope
 
-The app now defaults to **real-paper mode**. The 30 original demo questions are **hidden by default** and are not official IB past-paper questions. They can be enabled explicitly from the workspace help dialog with **Show original demo questions**, for trying the app's features. Disabling them preserves saved papers and progress. No real past-paper collection has been downloaded or indexed yet; the bank is empty until source-attributed questions are imported.
+The production bank contains **102 real Physics HL questions from the twelve user-supplied May 2025 PDFs**. The 30 generated demo questions have been removed from the app; isolated fixtures remain under `tests/fixtures/` for testing study tools. New workspaces open Physics HL so the uploaded questions are immediately available. Existing subject preferences, custom questions, papers, and progress are retained.
+
+| Paper    | TZ1 questions | TZ2 questions | Marks per time zone |
+| -------- | ------------- | ------------- | ------------------- |
+| Paper 1A | 40            | 40            | 40                  |
+| Paper 1B | 3             | 2             | 20                  |
+| Paper 2  | 9             | 8             | 90                  |
+
+All 80 MCQs use answers extracted geometrically from the official supplied answer keys, including the out-of-order TZ2 question 33 entry. The 22 structured questions retain every continuation page and their corresponding official marking tables. Lossless image crops preserve the original notation, diagrams, graphs, and answer spaces. Short study explanations and reviewed topic tags supplement the original content; these explanations are clearly distinguished from official marking points. Mixed questions have additional topic tags and appear under those filters too. Difficulty is left **Unrated**, because the supplied papers do not assign it. Whole-question feedback groups attempts under the main topic and does not infer which subpart was wrong.
+
+All six complete question papers and six mark schemes are bundled, unchanged, under `public/papers/physics/2025-may/` and available in **Source library**. Pairing was checked by exam code and session. TZ1/TZ2 labels follow the supplied filenames. `scripts/physics-2025-import-audit.json` records original PDF SHA-256 hashes, page counts, question counts, marks, and answer keys. `scripts/import-physics-papers.py` can reproduce the import with PyMuPDF and Pillow, using a local manifest mapping `1A-TZ1-Q`, `1A-TZ1-MS`, and equivalent paper/zone keys to file paths. Topic annotations are in `scripts/physics-2025-annotations.json`. No network access is needed for this import.
+
+**Math AA HL past papers have not been supplied.** Math remains supported for imports and study tools, with the official specimens described below in the source library. No generated questions are presented as Math past papers.
 
 The topic map uses Math AA's five topic areas (first assessment 2021) and Physics themes A–E (first assessment 2025). Math questions are structured; Physics includes Paper 1A-style MCQs and Paper 2-style structured questions. The guide lists selected subtopics, not every syllabus statement. Confirm full assessment and syllabus requirements against IB's current course documents.
 
 For source-attributed past-paper imports, Math exam years must be 2021–2026 and Physics years 2025–2026. Older questions need individual compatibility review and adaptation rather than being treated as current-syllabus papers.
 
-The source library includes the user-requested **https://ibresources.cc/**. Its domain is now allowed, but the website responds with a Cloudflare managed challenge (HTTP 403). A normal Chromium session identified the remaining blocked verification host, **`challenges.cloudflare.com`**. That hostname has been added to the configuration draft, preserving all existing domains. Review, save, and publish the environment settings to activate it before retrying normal website access. This does not guarantee that Cloudflare will grant access. No challenge bypass or CAPTCHA-solving automation is used, and the site's catalogue and past papers remain unverified.
+The source library retains the user-requested **https://ibresources.cc/** as an external reference link. Its catalogue has not been indexed. The uploaded Physics papers do not depend on that website being reachable.
 
 ### Verified documents available in the app
 
@@ -58,7 +70,7 @@ The original document is served directly by [IB's public PDF](https://www.ibo.or
 
 The downloaded source was checked as a 121-page PDF, SHA-256 `442eb7c812471c7eeb66bb9e88005e035e15e92f7b84809048654f35fbede2f4`. The following sections are SL and are not used in these HL links. The reader starts at the selected section but retains the complete original document; users can open it in a new tab if their browser does not support embedded PDFs.
 
-No current-syllabus Physics paper/mark-scheme set or actual past examination sitting has yet been verified or added to this catalogue. The Physics view makes that limitation explicit and retains the existing local PDF upload and viewing tools.
+The Physics view contains the six actual May 2025 examination-paper pairs described above. The general local PDF upload and viewing tools remain available for additional reference documents.
 
 IB's official subject briefs were retrieved and checked for both subjects. The source library links directly to the [Math AA brief with first assessments in 2021](https://www.ibo.org/contentassets/5895a05412144fe890312bad52b17044/subject-brief-dp-math-analysis-and-approaches-en.pdf) and the [Physics brief with first assessment in 2025](https://www.ibo.org/globalassets/new-structure/recognition/pdfs/dp_sciences_physics_subject-brief_jan_2022_e.pdf). IB's separate Math AA brief for first assessment in **2029** is not the syllabus for the 2026 exam sessions. These briefs verify syllabus structure; they are not past-paper collections.
 
@@ -70,7 +82,7 @@ For bulk entry, use **Import a question bank**, download the example JSON templa
 
 Math notation uses inline `$...$` or display `$$...$$` LaTeX, rendered locally with KaTeX. HTML is displayed as text, and trusted KaTeX commands are disabled.
 
-**PDF uploads are reference documents**. They are not OCRed, automatically split into individual questions, automatically topic-classified, or attached as diagrams to question text. Use the entry form or structured JSON import to add individual searchable questions. Files must be PDFs smaller than 25 MB. Keep original PDFs for reference diagrams not represented in the text bank.
+**Additional PDFs uploaded through the browser are reference documents**; that control does not automatically split or classify them. The twelve supplied Physics PDFs were separately imported and reviewed using the checked import script above. Use the question entry form or structured JSON import to add further searchable questions. Browser uploads must be PDFs smaller than 25 MB.
 
 ## Storage and privacy
 
@@ -86,11 +98,13 @@ The previous version stored only the most recent MCQ result. On first use of thi
 
 This app has no backend or accounts. Questions, bookmarks, MCQ attempts, paper selections, and saved papers use browser `localStorage`; source PDFs use `IndexedDB`. Data stays in the current browser and does not sync to another device. Clearing site data removes it. Export important papers as JSON or PDF and keep original PDF copies. **Export my full question bank** is available from the workspace help dialog.
 
-Fonts, math rendering, and application assets are bundled locally. Only deliberately opened external source/search links use third-party sites. No API keys are required.
+Fonts, math rendering, and the supplied Physics PDF/image assets are bundled locally. The Math specimen reader loads IB’s public PDF. Other external source/search links use third-party sites only when opened. No API keys are required.
 
 ## Project layout
 
-- `src/data/` — syllabus navigation and original questions
+- `src/data/` — syllabus navigation, uploaded real questions, and paper resources
+- `public/papers/` — original supplied PDFs and lossless question/mark-scheme images
+- `scripts/` — checked Physics import, annotations, source audit, and Pages deployment
 - `src/components/` — question, import, paper, source-library, and print interfaces
 - `src/lib/` — filtering, validation, JSON export, storage, and PDF persistence
 - `tests/` — unit and browser workflow tests
@@ -105,6 +119,6 @@ The app uses relative asset paths so it can run under the repository path `/vibe
 npm run deploy:pages
 ```
 
-This builds the app and uploads **only the static build** to the repository's `gh-pages` branch. It uses the existing Git authentication, keeps any existing branch history, and never force-pushes. Temporary staging files are kept outside the checkout and cleaned up afterward. Personal browser progress and uploaded PDFs are not part of the deployment.
+This builds the app and uploads **only the static build** to the repository's `gh-pages` branch. It uses the existing Git authentication, keeps any existing branch history, and never force-pushes. Temporary staging files are kept outside the checkout and cleaned up afterward. Personal browser progress and additional PDFs stored in IndexedDB are not part of deployment. The twelve supplied Physics PDFs and the derived question images are intentionally included in the static app.
 
 Enable GitHub Pages once under the repository's **Settings → Pages**: select **Deploy from a branch**, branch **gh-pages**, folder **/ (root)**, then save. The expected site address, after GitHub completes deployment, is `https://superawesomemegakool.github.io/vibe-coding/`. Creating the branch does not by itself confirm that the site is enabled or live. For subsequent updates, push source changes and run `npm run deploy:pages` again.

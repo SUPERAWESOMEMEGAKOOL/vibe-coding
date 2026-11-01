@@ -1,4 +1,4 @@
-import type { Question, Subject } from '../types';
+import type { Question, Subject } from '../../src/types';
 
 type Seed = Omit<Question, 'id' | 'subject' | 'source' | 'sourceName' | 'minutes' | 'paper'> & {
   paper?: string;

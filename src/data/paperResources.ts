@@ -1,4 +1,6 @@
 import type { Subject } from '../types';
+import uploadedPapers from './uploadedPaperResources.json';
+import { assetUrl } from '../lib/assets';
 
 export interface PaperResource {
   id: string;
@@ -13,9 +15,18 @@ export interface PaperResource {
   questions: { firstPage: number; lastPage: number };
   markScheme: { firstPage: number; lastPage: number };
   verifiedOn: string;
+  markSchemePdfUrl?: string;
+  markSchemePdfPages?: number;
+  uploaded?: boolean;
+  year?: number;
+  examSession?: string;
+  timeZone?: string;
+  questionCount?: number;
+  marks?: number;
+  examCode?: string;
 }
 
-// Public IB originals are opened at their source, not copied into the repository.
+// Math specimens open at IB's public source; uploaded Physics PDFs are bundled below.
 // The page ranges were checked against the PDF contents and the HL cover pages.
 const mathDocument = {
   subject: 'math' as const,
@@ -31,6 +42,7 @@ const mathDocument = {
 };
 
 export const paperResources: PaperResource[] = [
+  ...(uploadedPapers as PaperResource[]),
   {
     ...mathDocument,
     id: 'ib-math-aa-hl-specimen-p1',
@@ -55,5 +67,7 @@ export const paperResources: PaperResource[] = [
 ];
 
 export function paperDocumentUrl(resource: PaperResource, mode: 'questions' | 'markScheme') {
-  return `${resource.pdfUrl}#page=${resource[mode].firstPage}&view=FitH`;
+  const file =
+    mode === 'markScheme' ? (resource.markSchemePdfUrl ?? resource.pdfUrl) : resource.pdfUrl;
+  return `${assetUrl(file)}#page=${resource[mode].firstPage}&view=FitH`;
 }

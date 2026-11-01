@@ -287,37 +287,6 @@
   padding: 6px 9px;
   border-radius: 5px;
 }
-.demo-toggle {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  background: #f5ecde;
-  border: 1px solid #e3d0b6;
-  border-radius: 7px;
-  padding: 13px;
-  margin-bottom: 18px;
-}
-.demo-toggle > input {
-  width: 16px;
-  height: 16px;
-  padding: 0;
-  margin: 2px 0 0;
-  flex-shrink: 0;
-  accent-color: #92704d;
-}
-.demo-toggle strong {
-  font-size: 11px;
-  font-weight: 500;
-  color: #8c6946;
-}
-.demo-toggle small {
-  display: block;
-  font-size: 10px;
-  color: #a18463;
-  margin-top: 5px;
-  line-height: 1.8;
-}
 
 /* Parchment, soft edges, and a little breathing room. */
 .sidebar {
@@ -1475,5 +1444,97 @@
 @media print {
   .self-check-panel {
     display: none;
+  }
+}
+
+/* Keep the uploaded paper's notation, diagrams, and marking tables intact. */
+.question-original {
+  margin: 18px 0;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #e7dac9;
+  border-radius: 8px;
+}
+.original-pages {
+  min-width: 0;
+}
+.original-pages figure {
+  margin: 0 0 18px;
+}
+.original-pages figure:last-child {
+  margin-bottom: 0;
+}
+.original-pages img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: #fff;
+}
+.original-pages figcaption {
+  margin-top: 8px;
+  font-size: 10px;
+  color: #8c735c;
+}
+.mark-scheme .original-pages {
+  padding: 12px;
+  background: #fff;
+  border-radius: 5px;
+}
+.time-zone-tag {
+  font-size: 10px;
+  border: 1px solid #d5c1a5;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: #806143;
+}
+.additional-topic-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+  font-size: 10px;
+  color: #806b54;
+}
+.additional-topic-tags > span:not(:first-child) {
+  background: #f0e8dc;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+.advanced-filters {
+  flex-wrap: wrap;
+}
+.advanced-filters > label {
+  flex-basis: 40%;
+}
+@media (max-width: 600px) {
+  .question-original {
+    padding: 7px;
+    margin: 14px -5px;
+  }
+  .question-label {
+    min-width: 0;
+  }
+  .question-label > span:last-child {
+    overflow-wrap: anywhere;
+  }
+}
+@media print {
+  .print-question.has-original-images {
+    break-inside: auto;
+  }
+  .print-question.has-original-images .print-question-header,
+  .print-question.has-original-images > small,
+  .print-question.has-original-images > p {
+    break-after: avoid;
+  }
+  .original-pages-print figure {
+    break-inside: avoid;
+    margin: 10px 0;
+  }
+  .original-pages-print img {
+    max-height: 230mm;
+    width: auto;
+    object-fit: contain;
+    object-position: left top;
   }
 }
